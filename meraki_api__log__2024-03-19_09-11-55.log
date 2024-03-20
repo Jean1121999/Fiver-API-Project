@@ -1,0 +1,472 @@
+2024-03-19 09:11:55       meraki:     INFO > Meraki dashboard API session initialized with these parameters: {'version': '1.43.0', 'api_key': '************************************6abf', 'base_url': 'https://api.meraki.com/api/v1', 'single_request_timeout': 60, 'certificate_path': '', 'requests_proxy': '', 'wait_on_rate_limit': True, 'nginx_429_retry_wait_time': 60, 'action_batch_retry_wait_time': 60, 'network_delete_retry_wait_time': 240, 'retry_4xx_error': False, 'retry_4xx_error_wait_time': 60, 'maximum_retries': 2, 'simulate': False, 'be_geo_id': None, 'caller': None, 'use_iterator_for_get_pages': False}
+2024-03-19 09:11:55       meraki:    DEBUG > {'tags': ['networks', 'monitor', 'clients'], 'operation': 'getNetworkClients', 'page': 1}
+2024-03-19 09:11:55       meraki:     INFO > GET https://api.meraki.com/api/v1/networks/L_657525545596101722/clients
+2024-03-19 09:11:55       meraki:     INFO > networks, getNetworkClients; page 1 - 200 OK
+2024-03-19 09:11:55       meraki:    DEBUG > {'tags': ['networks', 'monitor', 'clients'], 'operation': 'getNetworkClients', 'page': 2}
+2024-03-19 09:11:55       meraki:     INFO > GET https://api.meraki.com/api/v1/networks/L_657525545596101722/clients?perPage=10&startingAfter=k728ff6&timespan=3600
+2024-03-19 09:11:56       meraki:     INFO > networks, getNetworkClients; page 2 - 200 OK
+2024-03-19 09:11:56       meraki:    DEBUG > {'tags': ['networks', 'monitor', 'clients'], 'operation': 'getNetworkClients', 'page': 3}
+2024-03-19 09:11:56       meraki:     INFO > GET https://api.meraki.com/api/v1/networks/L_657525545596101722/clients?perPage=10&startingAfter=k841b2d&timespan=3600
+2024-03-19 09:11:57       meraki:     INFO > networks, getNetworkClients; page 3 - 200 OK
+2024-03-19 09:11:57       meraki:    DEBUG > {'tags': ['networks', 'monitor', 'clients'], 'operation': 'getNetworkClients', 'page': 4}
+2024-03-19 09:11:57       meraki:     INFO > GET https://api.meraki.com/api/v1/networks/L_657525545596101722/clients?perPage=10&startingAfter=k8fc150&timespan=3600
+2024-03-19 09:11:57       meraki:     INFO > networks, getNetworkClients; page 4 - 200 OK
+2024-03-19 09:11:57       meraki:    DEBUG > {'tags': ['networks', 'monitor', 'clients'], 'operation': 'getNetworkClients', 'page': 5}
+2024-03-19 09:11:57       meraki:     INFO > GET https://api.meraki.com/api/v1/networks/L_657525545596101722/clients?perPage=10&startingAfter=k9db672&timespan=3600
+2024-03-19 09:11:57       meraki:     INFO > networks, getNetworkClients; page 5 - 200 OK
+2024-03-19 09:11:57       meraki:    DEBUG > {'tags': ['networks', 'monitor', 'clients'], 'operation': 'getNetworkClients', 'page': 6}
+2024-03-19 09:11:57       meraki:     INFO > GET https://api.meraki.com/api/v1/networks/L_657525545596101722/clients?perPage=10&startingAfter=kb3d526&timespan=3600
+2024-03-19 09:11:58       meraki:     INFO > networks, getNetworkClients; page 6 - 200 OK
+2024-03-19 09:11:58       meraki:    DEBUG > {'tags': ['networks', 'monitor', 'clients'], 'operation': 'getNetworkClients', 'page': 7}
+2024-03-19 09:11:58       meraki:     INFO > GET https://api.meraki.com/api/v1/networks/L_657525545596101722/clients?perPage=10&startingAfter=kc36a94&timespan=3600
+2024-03-19 09:11:58       meraki:     INFO > networks, getNetworkClients; page 7 - 200 OK
+2024-03-19 09:11:58       meraki:    DEBUG > {'tags': ['networks', 'monitor', 'clients'], 'operation': 'getNetworkClients', 'page': 8}
+2024-03-19 09:11:58       meraki:     INFO > GET https://api.meraki.com/api/v1/networks/L_657525545596101722/clients?perPage=10&startingAfter=kd4df6c&timespan=3600
+2024-03-19 09:11:58       meraki:     INFO > networks, getNetworkClients; page 8 - 200 OK
+2024-03-19 09:11:58       meraki:    DEBUG > {'tags': ['networks', 'monitor', 'clients'], 'operation': 'getNetworkClients', 'page': 9}
+2024-03-19 09:11:58       meraki:     INFO > GET https://api.meraki.com/api/v1/networks/L_657525545596101722/clients?perPage=10&startingAfter=ke51934&timespan=3600
+2024-03-19 09:11:58       meraki:     INFO > networks, getNetworkClients; page 9 - 200 OK
+2024-03-19 09:11:58       meraki:    DEBUG > {'tags': ['networks', 'monitor', 'clients'], 'operation': 'getNetworkClients', 'page': 10}
+2024-03-19 09:11:58       meraki:     INFO > GET https://api.meraki.com/api/v1/networks/L_657525545596101722/clients?perPage=10&startingAfter=kf5edf3&timespan=3600
+2024-03-19 09:11:59       meraki:     INFO > networks, getNetworkClients; page 10 - 200 OK
+2024-03-19 09:11:59       meraki:    DEBUG > {'tags': ['networks', 'monitor', 'clients'], 'operation': 'getNetworkClients', 'page': 11}
+2024-03-19 09:11:59       meraki:     INFO > GET https://api.meraki.com/api/v1/networks/L_657525545596101722/clients?perPage=10&startingAfter=k23f8cb&timespan=3600
+2024-03-19 09:11:59       meraki:     INFO > networks, getNetworkClients; page 11 - 200 OK
+2024-03-19 09:11:59       meraki:    DEBUG > {'tags': ['networks', 'monitor', 'clients'], 'operation': 'getNetworkClients', 'page': 12}
+2024-03-19 09:11:59       meraki:     INFO > GET https://api.meraki.com/api/v1/networks/L_657525545596101722/clients?perPage=10&startingAfter=k2da243&timespan=3600
+2024-03-19 09:11:59       meraki:     INFO > networks, getNetworkClients; page 12 - 200 OK
+2024-03-19 09:11:59       meraki:    DEBUG > {'tags': ['networks', 'monitor', 'clients'], 'operation': 'getNetworkClients', 'page': 13}
+2024-03-19 09:11:59       meraki:     INFO > GET https://api.meraki.com/api/v1/networks/L_657525545596101722/clients?perPage=10&startingAfter=k399c6a&timespan=3600
+2024-03-19 09:11:59       meraki:     INFO > networks, getNetworkClients; page 13 - 200 OK
+2024-03-19 09:11:59       meraki:    DEBUG > {'tags': ['networks', 'monitor', 'clients'], 'operation': 'getNetworkClients', 'page': 14}
+2024-03-19 09:11:59       meraki:     INFO > GET https://api.meraki.com/api/v1/networks/L_657525545596101722/clients?perPage=10&startingAfter=k43ed9d&timespan=3600
+2024-03-19 09:12:00       meraki:     INFO > networks, getNetworkClients; page 14 - 200 OK
+2024-03-19 09:12:00       meraki:    DEBUG > {'tags': ['networks', 'monitor', 'clients'], 'operation': 'getNetworkClients', 'page': 15}
+2024-03-19 09:12:00       meraki:     INFO > GET https://api.meraki.com/api/v1/networks/L_657525545596101722/clients?perPage=10&startingAfter=k60f8ed&timespan=3600
+2024-03-19 09:12:00       meraki:     INFO > networks, getNetworkClients; page 15 - 200 OK
+2024-03-19 09:12:00       meraki:    DEBUG > {'tags': ['wireless', 'monitor', 'clients', 'connectivityEvents'], 'operation': 'getNetworkWirelessClientConnectivityEvents', 'page': 1}
+2024-03-19 09:12:00       meraki:     INFO > GET https://api.meraki.com/api/v1/networks/L_657525545596101722/wireless/clients/k69dbb5/connectivityEvents
+2024-03-19 09:12:00       meraki:     INFO > wireless, getNetworkWirelessClientConnectivityEvents; page 1 - 200 OK
+2024-03-19 09:12:00       meraki:    DEBUG > {'tags': ['wireless', 'monitor', 'clients', 'connectivityEvents'], 'operation': 'getNetworkWirelessClientConnectivityEvents', 'page': 1}
+2024-03-19 09:12:00       meraki:     INFO > GET https://api.meraki.com/api/v1/networks/L_657525545596101722/wireless/clients/k6a7a61/connectivityEvents
+2024-03-19 09:12:00       meraki:     INFO > wireless, getNetworkWirelessClientConnectivityEvents; page 1 - 200 OK
+2024-03-19 09:12:00       meraki:    DEBUG > {'tags': ['wireless', 'monitor', 'clients', 'connectivityEvents'], 'operation': 'getNetworkWirelessClientConnectivityEvents', 'page': 1}
+2024-03-19 09:12:00       meraki:     INFO > GET https://api.meraki.com/api/v1/networks/L_657525545596101722/wireless/clients/k6bfac9/connectivityEvents
+2024-03-19 09:12:01       meraki:     INFO > wireless, getNetworkWirelessClientConnectivityEvents; page 1 - 200 OK
+2024-03-19 09:12:01       meraki:    DEBUG > {'tags': ['wireless', 'monitor', 'clients', 'connectivityEvents'], 'operation': 'getNetworkWirelessClientConnectivityEvents', 'page': 1}
+2024-03-19 09:12:01       meraki:     INFO > GET https://api.meraki.com/api/v1/networks/L_657525545596101722/wireless/clients/k6b5662/connectivityEvents
+2024-03-19 09:12:01       meraki:     INFO > wireless, getNetworkWirelessClientConnectivityEvents; page 1 - 200 OK
+2024-03-19 09:12:01       meraki:    DEBUG > {'tags': ['wireless', 'monitor', 'clients', 'connectivityEvents'], 'operation': 'getNetworkWirelessClientConnectivityEvents', 'page': 1}
+2024-03-19 09:12:01       meraki:     INFO > GET https://api.meraki.com/api/v1/networks/L_657525545596101722/wireless/clients/k6d40a0/connectivityEvents
+2024-03-19 09:12:01       meraki:     INFO > wireless, getNetworkWirelessClientConnectivityEvents; page 1 - 200 OK
+2024-03-19 09:12:01       meraki:    DEBUG > {'tags': ['wireless', 'monitor', 'clients', 'connectivityEvents'], 'operation': 'getNetworkWirelessClientConnectivityEvents', 'page': 1}
+2024-03-19 09:12:01       meraki:     INFO > GET https://api.meraki.com/api/v1/networks/L_657525545596101722/wireless/clients/k0b6dd6/connectivityEvents
+2024-03-19 09:12:01       meraki:     INFO > wireless, getNetworkWirelessClientConnectivityEvents; page 1 - 200 OK
+2024-03-19 09:12:01       meraki:    DEBUG > {'tags': ['wireless', 'monitor', 'clients', 'connectivityEvents'], 'operation': 'getNetworkWirelessClientConnectivityEvents', 'page': 1}
+2024-03-19 09:12:01       meraki:     INFO > GET https://api.meraki.com/api/v1/networks/L_657525545596101722/wireless/clients/k0bba6e/connectivityEvents
+2024-03-19 09:12:02       meraki:     INFO > wireless, getNetworkWirelessClientConnectivityEvents; page 1 - 200 OK
+2024-03-19 09:12:02       meraki:    DEBUG > {'tags': ['wireless', 'monitor', 'clients', 'connectivityEvents'], 'operation': 'getNetworkWirelessClientConnectivityEvents', 'page': 1}
+2024-03-19 09:12:02       meraki:     INFO > GET https://api.meraki.com/api/v1/networks/L_657525545596101722/wireless/clients/k6f5680/connectivityEvents
+2024-03-19 09:12:02       meraki:     INFO > wireless, getNetworkWirelessClientConnectivityEvents; page 1 - 200 OK
+2024-03-19 09:12:02       meraki:    DEBUG > {'tags': ['wireless', 'monitor', 'clients', 'connectivityEvents'], 'operation': 'getNetworkWirelessClientConnectivityEvents', 'page': 1}
+2024-03-19 09:12:02       meraki:     INFO > GET https://api.meraki.com/api/v1/networks/L_657525545596101722/wireless/clients/k717ed1/connectivityEvents
+2024-03-19 09:12:02       meraki:     INFO > wireless, getNetworkWirelessClientConnectivityEvents; page 1 - 200 OK
+2024-03-19 09:12:02       meraki:    DEBUG > {'tags': ['wireless', 'monitor', 'clients', 'connectivityEvents'], 'operation': 'getNetworkWirelessClientConnectivityEvents', 'page': 1}
+2024-03-19 09:12:02       meraki:     INFO > GET https://api.meraki.com/api/v1/networks/L_657525545596101722/wireless/clients/k728ff6/connectivityEvents
+2024-03-19 09:12:02       meraki:     INFO > wireless, getNetworkWirelessClientConnectivityEvents; page 1 - 200 OK
+2024-03-19 09:12:02       meraki:    DEBUG > {'tags': ['wireless', 'monitor', 'clients', 'connectivityEvents'], 'operation': 'getNetworkWirelessClientConnectivityEvents', 'page': 1}
+2024-03-19 09:12:02       meraki:     INFO > GET https://api.meraki.com/api/v1/networks/L_657525545596101722/wireless/clients/k75130e/connectivityEvents
+2024-03-19 09:12:02       meraki:     INFO > wireless, getNetworkWirelessClientConnectivityEvents; page 1 - 200 OK
+2024-03-19 09:12:02       meraki:    DEBUG > {'tags': ['wireless', 'monitor', 'clients', 'connectivityEvents'], 'operation': 'getNetworkWirelessClientConnectivityEvents', 'page': 1}
+2024-03-19 09:12:02       meraki:     INFO > GET https://api.meraki.com/api/v1/networks/L_657525545596101722/wireless/clients/k76930e/connectivityEvents
+2024-03-19 09:12:02       meraki:     INFO > wireless, getNetworkWirelessClientConnectivityEvents; page 1 - 200 OK
+2024-03-19 09:12:02       meraki:    DEBUG > {'tags': ['wireless', 'monitor', 'clients', 'connectivityEvents'], 'operation': 'getNetworkWirelessClientConnectivityEvents', 'page': 1}
+2024-03-19 09:12:02       meraki:     INFO > GET https://api.meraki.com/api/v1/networks/L_657525545596101722/wireless/clients/k77a4c7/connectivityEvents
+2024-03-19 09:12:03       meraki:     INFO > wireless, getNetworkWirelessClientConnectivityEvents; page 1 - 200 OK
+2024-03-19 09:12:03       meraki:    DEBUG > {'tags': ['wireless', 'monitor', 'clients', 'connectivityEvents'], 'operation': 'getNetworkWirelessClientConnectivityEvents', 'page': 1}
+2024-03-19 09:12:03       meraki:     INFO > GET https://api.meraki.com/api/v1/networks/L_657525545596101722/wireless/clients/k79e8da/connectivityEvents
+2024-03-19 09:12:03       meraki:     INFO > wireless, getNetworkWirelessClientConnectivityEvents; page 1 - 200 OK
+2024-03-19 09:12:03       meraki:    DEBUG > {'tags': ['wireless', 'monitor', 'clients', 'connectivityEvents'], 'operation': 'getNetworkWirelessClientConnectivityEvents', 'page': 1}
+2024-03-19 09:12:03       meraki:     INFO > GET https://api.meraki.com/api/v1/networks/L_657525545596101722/wireless/clients/k7937ce/connectivityEvents
+2024-03-19 09:12:03       meraki:     INFO > wireless, getNetworkWirelessClientConnectivityEvents; page 1 - 200 OK
+2024-03-19 09:12:03       meraki:    DEBUG > {'tags': ['wireless', 'monitor', 'clients', 'connectivityEvents'], 'operation': 'getNetworkWirelessClientConnectivityEvents', 'page': 1}
+2024-03-19 09:12:03       meraki:     INFO > GET https://api.meraki.com/api/v1/networks/L_657525545596101722/wireless/clients/k7cc450/connectivityEvents
+2024-03-19 09:12:03       meraki:     INFO > wireless, getNetworkWirelessClientConnectivityEvents; page 1 - 200 OK
+2024-03-19 09:12:03       meraki:    DEBUG > {'tags': ['wireless', 'monitor', 'clients', 'connectivityEvents'], 'operation': 'getNetworkWirelessClientConnectivityEvents', 'page': 1}
+2024-03-19 09:12:03       meraki:     INFO > GET https://api.meraki.com/api/v1/networks/L_657525545596101722/wireless/clients/k7e2078/connectivityEvents
+2024-03-19 09:12:03       meraki:     INFO > wireless, getNetworkWirelessClientConnectivityEvents; page 1 - 200 OK
+2024-03-19 09:12:03       meraki:    DEBUG > {'tags': ['wireless', 'monitor', 'clients', 'connectivityEvents'], 'operation': 'getNetworkWirelessClientConnectivityEvents', 'page': 1}
+2024-03-19 09:12:03       meraki:     INFO > GET https://api.meraki.com/api/v1/networks/L_657525545596101722/wireless/clients/k81a374/connectivityEvents
+2024-03-19 09:12:03       meraki:     INFO > wireless, getNetworkWirelessClientConnectivityEvents; page 1 - 200 OK
+2024-03-19 09:12:03       meraki:    DEBUG > {'tags': ['wireless', 'monitor', 'clients', 'connectivityEvents'], 'operation': 'getNetworkWirelessClientConnectivityEvents', 'page': 1}
+2024-03-19 09:12:03       meraki:     INFO > GET https://api.meraki.com/api/v1/networks/L_657525545596101722/wireless/clients/k84c7d0/connectivityEvents
+2024-03-19 09:12:04       meraki:     INFO > wireless, getNetworkWirelessClientConnectivityEvents; page 1 - 200 OK
+2024-03-19 09:12:04       meraki:    DEBUG > {'tags': ['wireless', 'monitor', 'clients', 'connectivityEvents'], 'operation': 'getNetworkWirelessClientConnectivityEvents', 'page': 1}
+2024-03-19 09:12:04       meraki:     INFO > GET https://api.meraki.com/api/v1/networks/L_657525545596101722/wireless/clients/k841b2d/connectivityEvents
+2024-03-19 09:12:04       meraki:     INFO > wireless, getNetworkWirelessClientConnectivityEvents; page 1 - 200 OK
+2024-03-19 09:12:04       meraki:    DEBUG > {'tags': ['wireless', 'monitor', 'clients', 'connectivityEvents'], 'operation': 'getNetworkWirelessClientConnectivityEvents', 'page': 1}
+2024-03-19 09:12:04       meraki:     INFO > GET https://api.meraki.com/api/v1/networks/L_657525545596101722/wireless/clients/k858065/connectivityEvents
+2024-03-19 09:12:04       meraki:     INFO > wireless, getNetworkWirelessClientConnectivityEvents; page 1 - 200 OK
+2024-03-19 09:12:04       meraki:    DEBUG > {'tags': ['wireless', 'monitor', 'clients', 'connectivityEvents'], 'operation': 'getNetworkWirelessClientConnectivityEvents', 'page': 1}
+2024-03-19 09:12:04       meraki:     INFO > GET https://api.meraki.com/api/v1/networks/L_657525545596101722/wireless/clients/k85ce2e/connectivityEvents
+2024-03-19 09:12:04       meraki:     INFO > wireless, getNetworkWirelessClientConnectivityEvents; page 1 - 200 OK
+2024-03-19 09:12:04       meraki:    DEBUG > {'tags': ['wireless', 'monitor', 'clients', 'connectivityEvents'], 'operation': 'getNetworkWirelessClientConnectivityEvents', 'page': 1}
+2024-03-19 09:12:04       meraki:     INFO > GET https://api.meraki.com/api/v1/networks/L_657525545596101722/wireless/clients/k853856/connectivityEvents
+2024-03-19 09:12:04       meraki:     INFO > wireless, getNetworkWirelessClientConnectivityEvents; page 1 - 200 OK
+2024-03-19 09:12:04       meraki:    DEBUG > {'tags': ['wireless', 'monitor', 'clients', 'connectivityEvents'], 'operation': 'getNetworkWirelessClientConnectivityEvents', 'page': 1}
+2024-03-19 09:12:04       meraki:     INFO > GET https://api.meraki.com/api/v1/networks/L_657525545596101722/wireless/clients/k87d79f/connectivityEvents
+2024-03-19 09:12:04       meraki:     INFO > wireless, getNetworkWirelessClientConnectivityEvents; page 1 - 200 OK
+2024-03-19 09:12:04       meraki:    DEBUG > {'tags': ['wireless', 'monitor', 'clients', 'connectivityEvents'], 'operation': 'getNetworkWirelessClientConnectivityEvents', 'page': 1}
+2024-03-19 09:12:04       meraki:     INFO > GET https://api.meraki.com/api/v1/networks/L_657525545596101722/wireless/clients/k89fa05/connectivityEvents
+2024-03-19 09:12:05       meraki:     INFO > wireless, getNetworkWirelessClientConnectivityEvents; page 1 - 200 OK
+2024-03-19 09:12:05       meraki:    DEBUG > {'tags': ['wireless', 'monitor', 'clients', 'connectivityEvents'], 'operation': 'getNetworkWirelessClientConnectivityEvents', 'page': 1}
+2024-03-19 09:12:05       meraki:     INFO > GET https://api.meraki.com/api/v1/networks/L_657525545596101722/wireless/clients/k0e6ba9/connectivityEvents
+2024-03-19 09:12:05       meraki:     INFO > wireless, getNetworkWirelessClientConnectivityEvents; page 1 - 200 OK
+2024-03-19 09:12:05       meraki:    DEBUG > {'tags': ['wireless', 'monitor', 'clients', 'connectivityEvents'], 'operation': 'getNetworkWirelessClientConnectivityEvents', 'page': 1}
+2024-03-19 09:12:05       meraki:     INFO > GET https://api.meraki.com/api/v1/networks/L_657525545596101722/wireless/clients/k8c6d02/connectivityEvents
+2024-03-19 09:12:05       meraki:     INFO > wireless, getNetworkWirelessClientConnectivityEvents; page 1 - 200 OK
+2024-03-19 09:12:05       meraki:    DEBUG > {'tags': ['wireless', 'monitor', 'clients', 'connectivityEvents'], 'operation': 'getNetworkWirelessClientConnectivityEvents', 'page': 1}
+2024-03-19 09:12:05       meraki:     INFO > GET https://api.meraki.com/api/v1/networks/L_657525545596101722/wireless/clients/k8c9f49/connectivityEvents
+2024-03-19 09:12:05       meraki:     INFO > wireless, getNetworkWirelessClientConnectivityEvents; page 1 - 200 OK
+2024-03-19 09:12:05       meraki:    DEBUG > {'tags': ['wireless', 'monitor', 'clients', 'connectivityEvents'], 'operation': 'getNetworkWirelessClientConnectivityEvents', 'page': 1}
+2024-03-19 09:12:05       meraki:     INFO > GET https://api.meraki.com/api/v1/networks/L_657525545596101722/wireless/clients/k8e7985/connectivityEvents
+2024-03-19 09:12:05       meraki:     INFO > wireless, getNetworkWirelessClientConnectivityEvents; page 1 - 200 OK
+2024-03-19 09:12:05       meraki:    DEBUG > {'tags': ['wireless', 'monitor', 'clients', 'connectivityEvents'], 'operation': 'getNetworkWirelessClientConnectivityEvents', 'page': 1}
+2024-03-19 09:12:05       meraki:     INFO > GET https://api.meraki.com/api/v1/networks/L_657525545596101722/wireless/clients/k8fc150/connectivityEvents
+2024-03-19 09:12:06       meraki:     INFO > wireless, getNetworkWirelessClientConnectivityEvents; page 1 - 200 OK
+2024-03-19 09:12:06       meraki:    DEBUG > {'tags': ['wireless', 'monitor', 'clients', 'connectivityEvents'], 'operation': 'getNetworkWirelessClientConnectivityEvents', 'page': 1}
+2024-03-19 09:12:06       meraki:     INFO > GET https://api.meraki.com/api/v1/networks/L_657525545596101722/wireless/clients/k90ca66/connectivityEvents
+2024-03-19 09:12:06       meraki:     INFO > wireless, getNetworkWirelessClientConnectivityEvents; page 1 - 200 OK
+2024-03-19 09:12:06       meraki:    DEBUG > {'tags': ['wireless', 'monitor', 'clients', 'connectivityEvents'], 'operation': 'getNetworkWirelessClientConnectivityEvents', 'page': 1}
+2024-03-19 09:12:06       meraki:     INFO > GET https://api.meraki.com/api/v1/networks/L_657525545596101722/wireless/clients/k904a68/connectivityEvents
+2024-03-19 09:12:06       meraki:     INFO > wireless, getNetworkWirelessClientConnectivityEvents; page 1 - 200 OK
+2024-03-19 09:12:06       meraki:    DEBUG > {'tags': ['wireless', 'monitor', 'clients', 'connectivityEvents'], 'operation': 'getNetworkWirelessClientConnectivityEvents', 'page': 1}
+2024-03-19 09:12:06       meraki:     INFO > GET https://api.meraki.com/api/v1/networks/L_657525545596101722/wireless/clients/k91791f/connectivityEvents
+2024-03-19 09:12:06       meraki:     INFO > wireless, getNetworkWirelessClientConnectivityEvents; page 1 - 200 OK
+2024-03-19 09:12:06       meraki:    DEBUG > {'tags': ['wireless', 'monitor', 'clients', 'connectivityEvents'], 'operation': 'getNetworkWirelessClientConnectivityEvents', 'page': 1}
+2024-03-19 09:12:06       meraki:     INFO > GET https://api.meraki.com/api/v1/networks/L_657525545596101722/wireless/clients/k925156/connectivityEvents
+2024-03-19 09:12:06       meraki:     INFO > wireless, getNetworkWirelessClientConnectivityEvents; page 1 - 200 OK
+2024-03-19 09:12:06       meraki:    DEBUG > {'tags': ['wireless', 'monitor', 'clients', 'connectivityEvents'], 'operation': 'getNetworkWirelessClientConnectivityEvents', 'page': 1}
+2024-03-19 09:12:06       meraki:     INFO > GET https://api.meraki.com/api/v1/networks/L_657525545596101722/wireless/clients/k96dd3f/connectivityEvents
+2024-03-19 09:12:06       meraki:     INFO > wireless, getNetworkWirelessClientConnectivityEvents; page 1 - 200 OK
+2024-03-19 09:12:06       meraki:    DEBUG > {'tags': ['wireless', 'monitor', 'clients', 'connectivityEvents'], 'operation': 'getNetworkWirelessClientConnectivityEvents', 'page': 1}
+2024-03-19 09:12:06       meraki:     INFO > GET https://api.meraki.com/api/v1/networks/L_657525545596101722/wireless/clients/k97c3d3/connectivityEvents
+2024-03-19 09:12:06       meraki:     INFO > wireless, getNetworkWirelessClientConnectivityEvents; page 1 - 200 OK
+2024-03-19 09:12:06       meraki:    DEBUG > {'tags': ['wireless', 'monitor', 'clients', 'connectivityEvents'], 'operation': 'getNetworkWirelessClientConnectivityEvents', 'page': 1}
+2024-03-19 09:12:06       meraki:     INFO > GET https://api.meraki.com/api/v1/networks/L_657525545596101722/wireless/clients/k981e42/connectivityEvents
+2024-03-19 09:12:07       meraki:     INFO > wireless, getNetworkWirelessClientConnectivityEvents; page 1 - 200 OK
+2024-03-19 09:12:07       meraki:    DEBUG > {'tags': ['wireless', 'monitor', 'clients', 'connectivityEvents'], 'operation': 'getNetworkWirelessClientConnectivityEvents', 'page': 1}
+2024-03-19 09:12:07       meraki:     INFO > GET https://api.meraki.com/api/v1/networks/L_657525545596101722/wireless/clients/k9987c4/connectivityEvents
+2024-03-19 09:12:07       meraki:     INFO > wireless, getNetworkWirelessClientConnectivityEvents; page 1 - 200 OK
+2024-03-19 09:12:07       meraki:    DEBUG > {'tags': ['wireless', 'monitor', 'clients', 'connectivityEvents'], 'operation': 'getNetworkWirelessClientConnectivityEvents', 'page': 1}
+2024-03-19 09:12:07       meraki:     INFO > GET https://api.meraki.com/api/v1/networks/L_657525545596101722/wireless/clients/k9c11e6/connectivityEvents
+2024-03-19 09:12:07       meraki:     INFO > wireless, getNetworkWirelessClientConnectivityEvents; page 1 - 200 OK
+2024-03-19 09:12:07       meraki:    DEBUG > {'tags': ['wireless', 'monitor', 'clients', 'connectivityEvents'], 'operation': 'getNetworkWirelessClientConnectivityEvents', 'page': 1}
+2024-03-19 09:12:07       meraki:     INFO > GET https://api.meraki.com/api/v1/networks/L_657525545596101722/wireless/clients/k9db672/connectivityEvents
+2024-03-19 09:12:07       meraki:     INFO > wireless, getNetworkWirelessClientConnectivityEvents; page 1 - 200 OK
+2024-03-19 09:12:07       meraki:    DEBUG > {'tags': ['wireless', 'monitor', 'clients', 'connectivityEvents'], 'operation': 'getNetworkWirelessClientConnectivityEvents', 'page': 1}
+2024-03-19 09:12:07       meraki:     INFO > GET https://api.meraki.com/api/v1/networks/L_657525545596101722/wireless/clients/k9df118/connectivityEvents
+2024-03-19 09:12:07       meraki:     INFO > wireless, getNetworkWirelessClientConnectivityEvents; page 1 - 200 OK
+2024-03-19 09:12:07       meraki:    DEBUG > {'tags': ['wireless', 'monitor', 'clients', 'connectivityEvents'], 'operation': 'getNetworkWirelessClientConnectivityEvents', 'page': 1}
+2024-03-19 09:12:07       meraki:     INFO > GET https://api.meraki.com/api/v1/networks/L_657525545596101722/wireless/clients/k9d2d8e/connectivityEvents
+2024-03-19 09:12:07       meraki:     INFO > wireless, getNetworkWirelessClientConnectivityEvents; page 1 - 200 OK
+2024-03-19 09:12:07       meraki:    DEBUG > {'tags': ['wireless', 'monitor', 'clients', 'connectivityEvents'], 'operation': 'getNetworkWirelessClientConnectivityEvents', 'page': 1}
+2024-03-19 09:12:07       meraki:     INFO > GET https://api.meraki.com/api/v1/networks/L_657525545596101722/wireless/clients/k9f4128/connectivityEvents
+2024-03-19 09:12:08       meraki:     INFO > wireless, getNetworkWirelessClientConnectivityEvents; page 1 - 200 OK
+2024-03-19 09:12:08       meraki:    DEBUG > {'tags': ['wireless', 'monitor', 'clients', 'connectivityEvents'], 'operation': 'getNetworkWirelessClientConnectivityEvents', 'page': 1}
+2024-03-19 09:12:08       meraki:     INFO > GET https://api.meraki.com/api/v1/networks/L_657525545596101722/wireless/clients/ka09cef/connectivityEvents
+2024-03-19 09:12:08       meraki:     INFO > wireless, getNetworkWirelessClientConnectivityEvents; page 1 - 200 OK
+2024-03-19 09:12:08       meraki:    DEBUG > {'tags': ['wireless', 'monitor', 'clients', 'connectivityEvents'], 'operation': 'getNetworkWirelessClientConnectivityEvents', 'page': 1}
+2024-03-19 09:12:08       meraki:     INFO > GET https://api.meraki.com/api/v1/networks/L_657525545596101722/wireless/clients/ka19ed0/connectivityEvents
+2024-03-19 09:12:08       meraki:     INFO > wireless, getNetworkWirelessClientConnectivityEvents; page 1 - 200 OK
+2024-03-19 09:12:08       meraki:    DEBUG > {'tags': ['wireless', 'monitor', 'clients', 'connectivityEvents'], 'operation': 'getNetworkWirelessClientConnectivityEvents', 'page': 1}
+2024-03-19 09:12:08       meraki:     INFO > GET https://api.meraki.com/api/v1/networks/L_657525545596101722/wireless/clients/ka70b9f/connectivityEvents
+2024-03-19 09:12:08       meraki:     INFO > wireless, getNetworkWirelessClientConnectivityEvents; page 1 - 200 OK
+2024-03-19 09:12:08       meraki:    DEBUG > {'tags': ['wireless', 'monitor', 'clients', 'connectivityEvents'], 'operation': 'getNetworkWirelessClientConnectivityEvents', 'page': 1}
+2024-03-19 09:12:08       meraki:     INFO > GET https://api.meraki.com/api/v1/networks/L_657525545596101722/wireless/clients/kae95d5/connectivityEvents
+2024-03-19 09:12:08       meraki:     INFO > wireless, getNetworkWirelessClientConnectivityEvents; page 1 - 200 OK
+2024-03-19 09:12:08       meraki:    DEBUG > {'tags': ['wireless', 'monitor', 'clients', 'connectivityEvents'], 'operation': 'getNetworkWirelessClientConnectivityEvents', 'page': 1}
+2024-03-19 09:12:08       meraki:     INFO > GET https://api.meraki.com/api/v1/networks/L_657525545596101722/wireless/clients/kb08f71/connectivityEvents
+2024-03-19 09:12:08       meraki:     INFO > wireless, getNetworkWirelessClientConnectivityEvents; page 1 - 200 OK
+2024-03-19 09:12:08       meraki:    DEBUG > {'tags': ['wireless', 'monitor', 'clients', 'connectivityEvents'], 'operation': 'getNetworkWirelessClientConnectivityEvents', 'page': 1}
+2024-03-19 09:12:08       meraki:     INFO > GET https://api.meraki.com/api/v1/networks/L_657525545596101722/wireless/clients/kb198dc/connectivityEvents
+2024-03-19 09:12:09       meraki:     INFO > wireless, getNetworkWirelessClientConnectivityEvents; page 1 - 200 OK
+2024-03-19 09:12:09       meraki:    DEBUG > {'tags': ['wireless', 'monitor', 'clients', 'connectivityEvents'], 'operation': 'getNetworkWirelessClientConnectivityEvents', 'page': 1}
+2024-03-19 09:12:09       meraki:     INFO > GET https://api.meraki.com/api/v1/networks/L_657525545596101722/wireless/clients/kb3d526/connectivityEvents
+2024-03-19 09:12:09       meraki:     INFO > wireless, getNetworkWirelessClientConnectivityEvents; page 1 - 200 OK
+2024-03-19 09:12:09       meraki:    DEBUG > {'tags': ['wireless', 'monitor', 'clients', 'connectivityEvents'], 'operation': 'getNetworkWirelessClientConnectivityEvents', 'page': 1}
+2024-03-19 09:12:09       meraki:     INFO > GET https://api.meraki.com/api/v1/networks/L_657525545596101722/wireless/clients/kb3d562/connectivityEvents
+2024-03-19 09:12:09       meraki:     INFO > wireless, getNetworkWirelessClientConnectivityEvents; page 1 - 200 OK
+2024-03-19 09:12:09       meraki:    DEBUG > {'tags': ['wireless', 'monitor', 'clients', 'connectivityEvents'], 'operation': 'getNetworkWirelessClientConnectivityEvents', 'page': 1}
+2024-03-19 09:12:09       meraki:     INFO > GET https://api.meraki.com/api/v1/networks/L_657525545596101722/wireless/clients/kb3f0c0/connectivityEvents
+2024-03-19 09:12:09       meraki:     INFO > wireless, getNetworkWirelessClientConnectivityEvents; page 1 - 200 OK
+2024-03-19 09:12:09       meraki:    DEBUG > {'tags': ['wireless', 'monitor', 'clients', 'connectivityEvents'], 'operation': 'getNetworkWirelessClientConnectivityEvents', 'page': 1}
+2024-03-19 09:12:09       meraki:     INFO > GET https://api.meraki.com/api/v1/networks/L_657525545596101722/wireless/clients/kb77dfe/connectivityEvents
+2024-03-19 09:12:09       meraki:     INFO > wireless, getNetworkWirelessClientConnectivityEvents; page 1 - 200 OK
+2024-03-19 09:12:09       meraki:    DEBUG > {'tags': ['wireless', 'monitor', 'clients', 'connectivityEvents'], 'operation': 'getNetworkWirelessClientConnectivityEvents', 'page': 1}
+2024-03-19 09:12:09       meraki:     INFO > GET https://api.meraki.com/api/v1/networks/L_657525545596101722/wireless/clients/kbabca6/connectivityEvents
+2024-03-19 09:12:09       meraki:     INFO > wireless, getNetworkWirelessClientConnectivityEvents; page 1 - 200 OK
+2024-03-19 09:12:09       meraki:    DEBUG > {'tags': ['wireless', 'monitor', 'clients', 'connectivityEvents'], 'operation': 'getNetworkWirelessClientConnectivityEvents', 'page': 1}
+2024-03-19 09:12:09       meraki:     INFO > GET https://api.meraki.com/api/v1/networks/L_657525545596101722/wireless/clients/kba1eae/connectivityEvents
+2024-03-19 09:12:10       meraki:     INFO > wireless, getNetworkWirelessClientConnectivityEvents; page 1 - 200 OK
+2024-03-19 09:12:10       meraki:    DEBUG > {'tags': ['wireless', 'monitor', 'clients', 'connectivityEvents'], 'operation': 'getNetworkWirelessClientConnectivityEvents', 'page': 1}
+2024-03-19 09:12:10       meraki:     INFO > GET https://api.meraki.com/api/v1/networks/L_657525545596101722/wireless/clients/kbb02dc/connectivityEvents
+2024-03-19 09:12:10       meraki:     INFO > wireless, getNetworkWirelessClientConnectivityEvents; page 1 - 200 OK
+2024-03-19 09:12:10       meraki:    DEBUG > {'tags': ['wireless', 'monitor', 'clients', 'connectivityEvents'], 'operation': 'getNetworkWirelessClientConnectivityEvents', 'page': 1}
+2024-03-19 09:12:10       meraki:     INFO > GET https://api.meraki.com/api/v1/networks/L_657525545596101722/wireless/clients/kbe5f2a/connectivityEvents
+2024-03-19 09:12:10       meraki:     INFO > wireless, getNetworkWirelessClientConnectivityEvents; page 1 - 200 OK
+2024-03-19 09:12:10       meraki:    DEBUG > {'tags': ['wireless', 'monitor', 'clients', 'connectivityEvents'], 'operation': 'getNetworkWirelessClientConnectivityEvents', 'page': 1}
+2024-03-19 09:12:10       meraki:     INFO > GET https://api.meraki.com/api/v1/networks/L_657525545596101722/wireless/clients/kc14c02/connectivityEvents
+2024-03-19 09:12:10       meraki:     INFO > wireless, getNetworkWirelessClientConnectivityEvents; page 1 - 200 OK
+2024-03-19 09:12:10       meraki:    DEBUG > {'tags': ['wireless', 'monitor', 'clients', 'connectivityEvents'], 'operation': 'getNetworkWirelessClientConnectivityEvents', 'page': 1}
+2024-03-19 09:12:10       meraki:     INFO > GET https://api.meraki.com/api/v1/networks/L_657525545596101722/wireless/clients/kc2d908/connectivityEvents
+2024-03-19 09:12:10       meraki:     INFO > wireless, getNetworkWirelessClientConnectivityEvents; page 1 - 200 OK
+2024-03-19 09:12:10       meraki:    DEBUG > {'tags': ['wireless', 'monitor', 'clients', 'connectivityEvents'], 'operation': 'getNetworkWirelessClientConnectivityEvents', 'page': 1}
+2024-03-19 09:12:10       meraki:     INFO > GET https://api.meraki.com/api/v1/networks/L_657525545596101722/wireless/clients/kc36a94/connectivityEvents
+2024-03-19 09:12:10       meraki:     INFO > wireless, getNetworkWirelessClientConnectivityEvents; page 1 - 200 OK
+2024-03-19 09:12:10       meraki:    DEBUG > {'tags': ['wireless', 'monitor', 'clients', 'connectivityEvents'], 'operation': 'getNetworkWirelessClientConnectivityEvents', 'page': 1}
+2024-03-19 09:12:10       meraki:     INFO > GET https://api.meraki.com/api/v1/networks/L_657525545596101722/wireless/clients/kc5d54b/connectivityEvents
+2024-03-19 09:12:10       meraki:     INFO > wireless, getNetworkWirelessClientConnectivityEvents; page 1 - 200 OK
+2024-03-19 09:12:10       meraki:    DEBUG > {'tags': ['wireless', 'monitor', 'clients', 'connectivityEvents'], 'operation': 'getNetworkWirelessClientConnectivityEvents', 'page': 1}
+2024-03-19 09:12:10       meraki:     INFO > GET https://api.meraki.com/api/v1/networks/L_657525545596101722/wireless/clients/kc7e109/connectivityEvents
+2024-03-19 09:12:11       meraki:     INFO > wireless, getNetworkWirelessClientConnectivityEvents; page 1 - 200 OK
+2024-03-19 09:12:11       meraki:    DEBUG > {'tags': ['wireless', 'monitor', 'clients', 'connectivityEvents'], 'operation': 'getNetworkWirelessClientConnectivityEvents', 'page': 1}
+2024-03-19 09:12:11       meraki:     INFO > GET https://api.meraki.com/api/v1/networks/L_657525545596101722/wireless/clients/k146564/connectivityEvents
+2024-03-19 09:12:11       meraki:     INFO > wireless, getNetworkWirelessClientConnectivityEvents; page 1 - 200 OK
+2024-03-19 09:12:11       meraki:    DEBUG > {'tags': ['wireless', 'monitor', 'clients', 'connectivityEvents'], 'operation': 'getNetworkWirelessClientConnectivityEvents', 'page': 1}
+2024-03-19 09:12:11       meraki:     INFO > GET https://api.meraki.com/api/v1/networks/L_657525545596101722/wireless/clients/k14ee0e/connectivityEvents
+2024-03-19 09:12:11       meraki:     INFO > wireless, getNetworkWirelessClientConnectivityEvents; page 1 - 200 OK
+2024-03-19 09:12:11       meraki:    DEBUG > {'tags': ['wireless', 'monitor', 'clients', 'connectivityEvents'], 'operation': 'getNetworkWirelessClientConnectivityEvents', 'page': 1}
+2024-03-19 09:12:11       meraki:     INFO > GET https://api.meraki.com/api/v1/networks/L_657525545596101722/wireless/clients/kcc1277/connectivityEvents
+2024-03-19 09:12:11       meraki:     INFO > wireless, getNetworkWirelessClientConnectivityEvents; page 1 - 200 OK
+2024-03-19 09:12:11       meraki:    DEBUG > {'tags': ['wireless', 'monitor', 'clients', 'connectivityEvents'], 'operation': 'getNetworkWirelessClientConnectivityEvents', 'page': 1}
+2024-03-19 09:12:11       meraki:     INFO > GET https://api.meraki.com/api/v1/networks/L_657525545596101722/wireless/clients/kcd363e/connectivityEvents
+2024-03-19 09:12:11       meraki:     INFO > wireless, getNetworkWirelessClientConnectivityEvents; page 1 - 200 OK
+2024-03-19 09:12:11       meraki:    DEBUG > {'tags': ['wireless', 'monitor', 'clients', 'connectivityEvents'], 'operation': 'getNetworkWirelessClientConnectivityEvents', 'page': 1}
+2024-03-19 09:12:11       meraki:     INFO > GET https://api.meraki.com/api/v1/networks/L_657525545596101722/wireless/clients/kce9561/connectivityEvents
+2024-03-19 09:12:11       meraki:     INFO > wireless, getNetworkWirelessClientConnectivityEvents; page 1 - 200 OK
+2024-03-19 09:12:11       meraki:    DEBUG > {'tags': ['wireless', 'monitor', 'clients', 'connectivityEvents'], 'operation': 'getNetworkWirelessClientConnectivityEvents', 'page': 1}
+2024-03-19 09:12:11       meraki:     INFO > GET https://api.meraki.com/api/v1/networks/L_657525545596101722/wireless/clients/kce11df/connectivityEvents
+2024-03-19 09:12:12       meraki:     INFO > wireless, getNetworkWirelessClientConnectivityEvents; page 1 - 200 OK
+2024-03-19 09:12:12       meraki:    DEBUG > {'tags': ['wireless', 'monitor', 'clients', 'connectivityEvents'], 'operation': 'getNetworkWirelessClientConnectivityEvents', 'page': 1}
+2024-03-19 09:12:12       meraki:     INFO > GET https://api.meraki.com/api/v1/networks/L_657525545596101722/wireless/clients/kd25fc6/connectivityEvents
+2024-03-19 09:12:12       meraki:     INFO > wireless, getNetworkWirelessClientConnectivityEvents; page 1 - 200 OK
+2024-03-19 09:12:12       meraki:    DEBUG > {'tags': ['wireless', 'monitor', 'clients', 'connectivityEvents'], 'operation': 'getNetworkWirelessClientConnectivityEvents', 'page': 1}
+2024-03-19 09:12:12       meraki:     INFO > GET https://api.meraki.com/api/v1/networks/L_657525545596101722/wireless/clients/kd4df6c/connectivityEvents
+2024-03-19 09:12:12       meraki:     INFO > wireless, getNetworkWirelessClientConnectivityEvents; page 1 - 200 OK
+2024-03-19 09:12:12       meraki:    DEBUG > {'tags': ['wireless', 'monitor', 'clients', 'connectivityEvents'], 'operation': 'getNetworkWirelessClientConnectivityEvents', 'page': 1}
+2024-03-19 09:12:12       meraki:     INFO > GET https://api.meraki.com/api/v1/networks/L_657525545596101722/wireless/clients/kd63add/connectivityEvents
+2024-03-19 09:12:12       meraki:     INFO > wireless, getNetworkWirelessClientConnectivityEvents; page 1 - 200 OK
+2024-03-19 09:12:12       meraki:    DEBUG > {'tags': ['wireless', 'monitor', 'clients', 'connectivityEvents'], 'operation': 'getNetworkWirelessClientConnectivityEvents', 'page': 1}
+2024-03-19 09:12:12       meraki:     INFO > GET https://api.meraki.com/api/v1/networks/L_657525545596101722/wireless/clients/kd739f9/connectivityEvents
+2024-03-19 09:12:12       meraki:     INFO > wireless, getNetworkWirelessClientConnectivityEvents; page 1 - 200 OK
+2024-03-19 09:12:12       meraki:    DEBUG > {'tags': ['wireless', 'monitor', 'clients', 'connectivityEvents'], 'operation': 'getNetworkWirelessClientConnectivityEvents', 'page': 1}
+2024-03-19 09:12:12       meraki:     INFO > GET https://api.meraki.com/api/v1/networks/L_657525545596101722/wireless/clients/kd88d8f/connectivityEvents
+2024-03-19 09:12:12       meraki:     INFO > wireless, getNetworkWirelessClientConnectivityEvents; page 1 - 200 OK
+2024-03-19 09:12:12       meraki:    DEBUG > {'tags': ['wireless', 'monitor', 'clients', 'connectivityEvents'], 'operation': 'getNetworkWirelessClientConnectivityEvents', 'page': 1}
+2024-03-19 09:12:12       meraki:     INFO > GET https://api.meraki.com/api/v1/networks/L_657525545596101722/wireless/clients/kdaa11d/connectivityEvents
+2024-03-19 09:12:13       meraki:     INFO > wireless, getNetworkWirelessClientConnectivityEvents; page 1 - 200 OK
+2024-03-19 09:12:13       meraki:    DEBUG > {'tags': ['wireless', 'monitor', 'clients', 'connectivityEvents'], 'operation': 'getNetworkWirelessClientConnectivityEvents', 'page': 1}
+2024-03-19 09:12:13       meraki:     INFO > GET https://api.meraki.com/api/v1/networks/L_657525545596101722/wireless/clients/kdb81b6/connectivityEvents
+2024-03-19 09:12:13       meraki:     INFO > wireless, getNetworkWirelessClientConnectivityEvents; page 1 - 200 OK
+2024-03-19 09:12:13       meraki:    DEBUG > {'tags': ['wireless', 'monitor', 'clients', 'connectivityEvents'], 'operation': 'getNetworkWirelessClientConnectivityEvents', 'page': 1}
+2024-03-19 09:12:13       meraki:     INFO > GET https://api.meraki.com/api/v1/networks/L_657525545596101722/wireless/clients/kdd00d5/connectivityEvents
+2024-03-19 09:12:13       meraki:     INFO > wireless, getNetworkWirelessClientConnectivityEvents; page 1 - 200 OK
+2024-03-19 09:12:13       meraki:    DEBUG > {'tags': ['wireless', 'monitor', 'clients', 'connectivityEvents'], 'operation': 'getNetworkWirelessClientConnectivityEvents', 'page': 1}
+2024-03-19 09:12:13       meraki:     INFO > GET https://api.meraki.com/api/v1/networks/L_657525545596101722/wireless/clients/kde853a/connectivityEvents
+2024-03-19 09:12:13       meraki:     INFO > wireless, getNetworkWirelessClientConnectivityEvents; page 1 - 200 OK
+2024-03-19 09:12:13       meraki:    DEBUG > {'tags': ['wireless', 'monitor', 'clients', 'connectivityEvents'], 'operation': 'getNetworkWirelessClientConnectivityEvents', 'page': 1}
+2024-03-19 09:12:13       meraki:     INFO > GET https://api.meraki.com/api/v1/networks/L_657525545596101722/wireless/clients/kdfcc5f/connectivityEvents
+2024-03-19 09:12:13       meraki:     INFO > wireless, getNetworkWirelessClientConnectivityEvents; page 1 - 200 OK
+2024-03-19 09:12:13       meraki:    DEBUG > {'tags': ['wireless', 'monitor', 'clients', 'connectivityEvents'], 'operation': 'getNetworkWirelessClientConnectivityEvents', 'page': 1}
+2024-03-19 09:12:13       meraki:     INFO > GET https://api.meraki.com/api/v1/networks/L_657525545596101722/wireless/clients/ke2e8df/connectivityEvents
+2024-03-19 09:12:13       meraki:     INFO > wireless, getNetworkWirelessClientConnectivityEvents; page 1 - 200 OK
+2024-03-19 09:12:13       meraki:    DEBUG > {'tags': ['wireless', 'monitor', 'clients', 'connectivityEvents'], 'operation': 'getNetworkWirelessClientConnectivityEvents', 'page': 1}
+2024-03-19 09:12:13       meraki:     INFO > GET https://api.meraki.com/api/v1/networks/L_657525545596101722/wireless/clients/ke51934/connectivityEvents
+2024-03-19 09:12:13       meraki:     INFO > wireless, getNetworkWirelessClientConnectivityEvents; page 1 - 200 OK
+2024-03-19 09:12:13       meraki:    DEBUG > {'tags': ['wireless', 'monitor', 'clients', 'connectivityEvents'], 'operation': 'getNetworkWirelessClientConnectivityEvents', 'page': 1}
+2024-03-19 09:12:13       meraki:     INFO > GET https://api.meraki.com/api/v1/networks/L_657525545596101722/wireless/clients/k177358/connectivityEvents
+2024-03-19 09:12:14       meraki:     INFO > wireless, getNetworkWirelessClientConnectivityEvents; page 1 - 200 OK
+2024-03-19 09:12:14       meraki:    DEBUG > {'tags': ['wireless', 'monitor', 'clients', 'connectivityEvents'], 'operation': 'getNetworkWirelessClientConnectivityEvents', 'page': 1}
+2024-03-19 09:12:14       meraki:     INFO > GET https://api.meraki.com/api/v1/networks/L_657525545596101722/wireless/clients/ke8740c/connectivityEvents
+2024-03-19 09:12:14       meraki:     INFO > wireless, getNetworkWirelessClientConnectivityEvents; page 1 - 200 OK
+2024-03-19 09:12:14       meraki:    DEBUG > {'tags': ['wireless', 'monitor', 'clients', 'connectivityEvents'], 'operation': 'getNetworkWirelessClientConnectivityEvents', 'page': 1}
+2024-03-19 09:12:14       meraki:     INFO > GET https://api.meraki.com/api/v1/networks/L_657525545596101722/wireless/clients/ke9c1a7/connectivityEvents
+2024-03-19 09:12:14       meraki:     INFO > wireless, getNetworkWirelessClientConnectivityEvents; page 1 - 200 OK
+2024-03-19 09:12:14       meraki:    DEBUG > {'tags': ['wireless', 'monitor', 'clients', 'connectivityEvents'], 'operation': 'getNetworkWirelessClientConnectivityEvents', 'page': 1}
+2024-03-19 09:12:14       meraki:     INFO > GET https://api.meraki.com/api/v1/networks/L_657525545596101722/wireless/clients/ked8629/connectivityEvents
+2024-03-19 09:12:14       meraki:     INFO > wireless, getNetworkWirelessClientConnectivityEvents; page 1 - 200 OK
+2024-03-19 09:12:14       meraki:    DEBUG > {'tags': ['wireless', 'monitor', 'clients', 'connectivityEvents'], 'operation': 'getNetworkWirelessClientConnectivityEvents', 'page': 1}
+2024-03-19 09:12:14       meraki:     INFO > GET https://api.meraki.com/api/v1/networks/L_657525545596101722/wireless/clients/kedce33/connectivityEvents
+2024-03-19 09:12:15       meraki:     INFO > wireless, getNetworkWirelessClientConnectivityEvents; page 1 - 200 OK
+2024-03-19 09:12:15       meraki:    DEBUG > {'tags': ['wireless', 'monitor', 'clients', 'connectivityEvents'], 'operation': 'getNetworkWirelessClientConnectivityEvents', 'page': 1}
+2024-03-19 09:12:15       meraki:     INFO > GET https://api.meraki.com/api/v1/networks/L_657525545596101722/wireless/clients/kee0a61/connectivityEvents
+2024-03-19 09:12:15       meraki:     INFO > wireless, getNetworkWirelessClientConnectivityEvents; page 1 - 200 OK
+2024-03-19 09:12:15       meraki:    DEBUG > {'tags': ['wireless', 'monitor', 'clients', 'connectivityEvents'], 'operation': 'getNetworkWirelessClientConnectivityEvents', 'page': 1}
+2024-03-19 09:12:15       meraki:     INFO > GET https://api.meraki.com/api/v1/networks/L_657525545596101722/wireless/clients/keea823/connectivityEvents
+2024-03-19 09:12:15       meraki:     INFO > wireless, getNetworkWirelessClientConnectivityEvents; page 1 - 200 OK
+2024-03-19 09:12:15       meraki:    DEBUG > {'tags': ['wireless', 'monitor', 'clients', 'connectivityEvents'], 'operation': 'getNetworkWirelessClientConnectivityEvents', 'page': 1}
+2024-03-19 09:12:15       meraki:     INFO > GET https://api.meraki.com/api/v1/networks/L_657525545596101722/wireless/clients/k18e720/connectivityEvents
+2024-03-19 09:12:15       meraki:     INFO > wireless, getNetworkWirelessClientConnectivityEvents; page 1 - 200 OK
+2024-03-19 09:12:15       meraki:    DEBUG > {'tags': ['wireless', 'monitor', 'clients', 'connectivityEvents'], 'operation': 'getNetworkWirelessClientConnectivityEvents', 'page': 1}
+2024-03-19 09:12:15       meraki:     INFO > GET https://api.meraki.com/api/v1/networks/L_657525545596101722/wireless/clients/kf5d5fe/connectivityEvents
+2024-03-19 09:12:15       meraki:     INFO > wireless, getNetworkWirelessClientConnectivityEvents; page 1 - 200 OK
+2024-03-19 09:12:15       meraki:    DEBUG > {'tags': ['wireless', 'monitor', 'clients', 'connectivityEvents'], 'operation': 'getNetworkWirelessClientConnectivityEvents', 'page': 1}
+2024-03-19 09:12:15       meraki:     INFO > GET https://api.meraki.com/api/v1/networks/L_657525545596101722/wireless/clients/kf5edf3/connectivityEvents
+2024-03-19 09:12:15       meraki:     INFO > wireless, getNetworkWirelessClientConnectivityEvents; page 1 - 200 OK
+2024-03-19 09:12:15       meraki:    DEBUG > {'tags': ['wireless', 'monitor', 'clients', 'connectivityEvents'], 'operation': 'getNetworkWirelessClientConnectivityEvents', 'page': 1}
+2024-03-19 09:12:15       meraki:     INFO > GET https://api.meraki.com/api/v1/networks/L_657525545596101722/wireless/clients/kfa86a6/connectivityEvents
+2024-03-19 09:12:16       meraki:     INFO > wireless, getNetworkWirelessClientConnectivityEvents; page 1 - 200 OK
+2024-03-19 09:12:16       meraki:    DEBUG > {'tags': ['wireless', 'monitor', 'clients', 'connectivityEvents'], 'operation': 'getNetworkWirelessClientConnectivityEvents', 'page': 1}
+2024-03-19 09:12:16       meraki:     INFO > GET https://api.meraki.com/api/v1/networks/L_657525545596101722/wireless/clients/kfbc26f/connectivityEvents
+2024-03-19 09:12:16       meraki:     INFO > wireless, getNetworkWirelessClientConnectivityEvents; page 1 - 200 OK
+2024-03-19 09:12:16       meraki:    DEBUG > {'tags': ['wireless', 'monitor', 'clients', 'connectivityEvents'], 'operation': 'getNetworkWirelessClientConnectivityEvents', 'page': 1}
+2024-03-19 09:12:16       meraki:     INFO > GET https://api.meraki.com/api/v1/networks/L_657525545596101722/wireless/clients/kfbee71/connectivityEvents
+2024-03-19 09:12:16       meraki:     INFO > wireless, getNetworkWirelessClientConnectivityEvents; page 1 - 200 OK
+2024-03-19 09:12:16       meraki:    DEBUG > {'tags': ['wireless', 'monitor', 'clients', 'connectivityEvents'], 'operation': 'getNetworkWirelessClientConnectivityEvents', 'page': 1}
+2024-03-19 09:12:16       meraki:     INFO > GET https://api.meraki.com/api/v1/networks/L_657525545596101722/wireless/clients/kfd655b/connectivityEvents
+2024-03-19 09:12:16       meraki:     INFO > wireless, getNetworkWirelessClientConnectivityEvents; page 1 - 200 OK
+2024-03-19 09:12:16       meraki:    DEBUG > {'tags': ['wireless', 'monitor', 'clients', 'connectivityEvents'], 'operation': 'getNetworkWirelessClientConnectivityEvents', 'page': 1}
+2024-03-19 09:12:16       meraki:     INFO > GET https://api.meraki.com/api/v1/networks/L_657525545596101722/wireless/clients/kfd79f3/connectivityEvents
+2024-03-19 09:12:16       meraki:     INFO > wireless, getNetworkWirelessClientConnectivityEvents; page 1 - 200 OK
+2024-03-19 09:12:16       meraki:    DEBUG > {'tags': ['wireless', 'monitor', 'clients', 'connectivityEvents'], 'operation': 'getNetworkWirelessClientConnectivityEvents', 'page': 1}
+2024-03-19 09:12:16       meraki:     INFO > GET https://api.meraki.com/api/v1/networks/L_657525545596101722/wireless/clients/k1bbcaa/connectivityEvents
+2024-03-19 09:12:16       meraki:     INFO > wireless, getNetworkWirelessClientConnectivityEvents; page 1 - 200 OK
+2024-03-19 09:12:16       meraki:    DEBUG > {'tags': ['wireless', 'monitor', 'clients', 'connectivityEvents'], 'operation': 'getNetworkWirelessClientConnectivityEvents', 'page': 1}
+2024-03-19 09:12:16       meraki:     INFO > GET https://api.meraki.com/api/v1/networks/L_657525545596101722/wireless/clients/k1e4915/connectivityEvents
+2024-03-19 09:12:17       meraki:     INFO > wireless, getNetworkWirelessClientConnectivityEvents; page 1 - 200 OK
+2024-03-19 09:12:17       meraki:    DEBUG > {'tags': ['wireless', 'monitor', 'clients', 'connectivityEvents'], 'operation': 'getNetworkWirelessClientConnectivityEvents', 'page': 1}
+2024-03-19 09:12:17       meraki:     INFO > GET https://api.meraki.com/api/v1/networks/L_657525545596101722/wireless/clients/k2037f1/connectivityEvents
+2024-03-19 09:12:17       meraki:     INFO > wireless, getNetworkWirelessClientConnectivityEvents; page 1 - 200 OK
+2024-03-19 09:12:17       meraki:    DEBUG > {'tags': ['wireless', 'monitor', 'clients', 'connectivityEvents'], 'operation': 'getNetworkWirelessClientConnectivityEvents', 'page': 1}
+2024-03-19 09:12:17       meraki:     INFO > GET https://api.meraki.com/api/v1/networks/L_657525545596101722/wireless/clients/k23a26e/connectivityEvents
+2024-03-19 09:12:17       meraki:     INFO > wireless, getNetworkWirelessClientConnectivityEvents; page 1 - 200 OK
+2024-03-19 09:12:17       meraki:    DEBUG > {'tags': ['wireless', 'monitor', 'clients', 'connectivityEvents'], 'operation': 'getNetworkWirelessClientConnectivityEvents', 'page': 1}
+2024-03-19 09:12:17       meraki:     INFO > GET https://api.meraki.com/api/v1/networks/L_657525545596101722/wireless/clients/k23f8cb/connectivityEvents
+2024-03-19 09:12:17       meraki:     INFO > wireless, getNetworkWirelessClientConnectivityEvents; page 1 - 200 OK
+2024-03-19 09:12:17       meraki:    DEBUG > {'tags': ['wireless', 'monitor', 'clients', 'connectivityEvents'], 'operation': 'getNetworkWirelessClientConnectivityEvents', 'page': 1}
+2024-03-19 09:12:17       meraki:     INFO > GET https://api.meraki.com/api/v1/networks/L_657525545596101722/wireless/clients/k254488/connectivityEvents
+2024-03-19 09:12:17       meraki:     INFO > wireless, getNetworkWirelessClientConnectivityEvents; page 1 - 200 OK
+2024-03-19 09:12:17       meraki:    DEBUG > {'tags': ['wireless', 'monitor', 'clients', 'connectivityEvents'], 'operation': 'getNetworkWirelessClientConnectivityEvents', 'page': 1}
+2024-03-19 09:12:17       meraki:     INFO > GET https://api.meraki.com/api/v1/networks/L_657525545596101722/wireless/clients/k04c8fc/connectivityEvents
+2024-03-19 09:12:18       meraki:     INFO > wireless, getNetworkWirelessClientConnectivityEvents; page 1 - 200 OK
+2024-03-19 09:12:18       meraki:    DEBUG > {'tags': ['wireless', 'monitor', 'clients', 'connectivityEvents'], 'operation': 'getNetworkWirelessClientConnectivityEvents', 'page': 1}
+2024-03-19 09:12:18       meraki:     INFO > GET https://api.meraki.com/api/v1/networks/L_657525545596101722/wireless/clients/k288d41/connectivityEvents
+2024-03-19 09:12:18       meraki:     INFO > wireless, getNetworkWirelessClientConnectivityEvents; page 1 - 200 OK
+2024-03-19 09:12:18       meraki:    DEBUG > {'tags': ['wireless', 'monitor', 'clients', 'connectivityEvents'], 'operation': 'getNetworkWirelessClientConnectivityEvents', 'page': 1}
+2024-03-19 09:12:18       meraki:     INFO > GET https://api.meraki.com/api/v1/networks/L_657525545596101722/wireless/clients/k289f44/connectivityEvents
+2024-03-19 09:12:18       meraki:     INFO > wireless, getNetworkWirelessClientConnectivityEvents; page 1 - 200 OK
+2024-03-19 09:12:18       meraki:    DEBUG > {'tags': ['wireless', 'monitor', 'clients', 'connectivityEvents'], 'operation': 'getNetworkWirelessClientConnectivityEvents', 'page': 1}
+2024-03-19 09:12:18       meraki:     INFO > GET https://api.meraki.com/api/v1/networks/L_657525545596101722/wireless/clients/k28ef7f/connectivityEvents
+2024-03-19 09:12:18       meraki:     INFO > wireless, getNetworkWirelessClientConnectivityEvents; page 1 - 200 OK
+2024-03-19 09:12:18       meraki:    DEBUG > {'tags': ['wireless', 'monitor', 'clients', 'connectivityEvents'], 'operation': 'getNetworkWirelessClientConnectivityEvents', 'page': 1}
+2024-03-19 09:12:18       meraki:     INFO > GET https://api.meraki.com/api/v1/networks/L_657525545596101722/wireless/clients/k282eed/connectivityEvents
+2024-03-19 09:12:18       meraki:     INFO > wireless, getNetworkWirelessClientConnectivityEvents; page 1 - 200 OK
+2024-03-19 09:12:18       meraki:    DEBUG > {'tags': ['wireless', 'monitor', 'clients', 'connectivityEvents'], 'operation': 'getNetworkWirelessClientConnectivityEvents', 'page': 1}
+2024-03-19 09:12:18       meraki:     INFO > GET https://api.meraki.com/api/v1/networks/L_657525545596101722/wireless/clients/k2b75c3/connectivityEvents
+2024-03-19 09:12:18       meraki:     INFO > wireless, getNetworkWirelessClientConnectivityEvents; page 1 - 200 OK
+2024-03-19 09:12:18       meraki:    DEBUG > {'tags': ['wireless', 'monitor', 'clients', 'connectivityEvents'], 'operation': 'getNetworkWirelessClientConnectivityEvents', 'page': 1}
+2024-03-19 09:12:18       meraki:     INFO > GET https://api.meraki.com/api/v1/networks/L_657525545596101722/wireless/clients/k2b4fd6/connectivityEvents
+2024-03-19 09:12:19       meraki:     INFO > wireless, getNetworkWirelessClientConnectivityEvents; page 1 - 200 OK
+2024-03-19 09:12:19       meraki:    DEBUG > {'tags': ['wireless', 'monitor', 'clients', 'connectivityEvents'], 'operation': 'getNetworkWirelessClientConnectivityEvents', 'page': 1}
+2024-03-19 09:12:19       meraki:     INFO > GET https://api.meraki.com/api/v1/networks/L_657525545596101722/wireless/clients/k2ce229/connectivityEvents
+2024-03-19 09:12:19       meraki:     INFO > wireless, getNetworkWirelessClientConnectivityEvents; page 1 - 200 OK
+2024-03-19 09:12:19       meraki:    DEBUG > {'tags': ['wireless', 'monitor', 'clients', 'connectivityEvents'], 'operation': 'getNetworkWirelessClientConnectivityEvents', 'page': 1}
+2024-03-19 09:12:19       meraki:     INFO > GET https://api.meraki.com/api/v1/networks/L_657525545596101722/wireless/clients/k2da243/connectivityEvents
+2024-03-19 09:12:19       meraki:     INFO > wireless, getNetworkWirelessClientConnectivityEvents; page 1 - 200 OK
+2024-03-19 09:12:19       meraki:    DEBUG > {'tags': ['wireless', 'monitor', 'clients', 'connectivityEvents'], 'operation': 'getNetworkWirelessClientConnectivityEvents', 'page': 1}
+2024-03-19 09:12:19       meraki:     INFO > GET https://api.meraki.com/api/v1/networks/L_657525545596101722/wireless/clients/k2e5c6c/connectivityEvents
+2024-03-19 09:12:19       meraki:     INFO > wireless, getNetworkWirelessClientConnectivityEvents; page 1 - 200 OK
+2024-03-19 09:12:19       meraki:    DEBUG > {'tags': ['wireless', 'monitor', 'clients', 'connectivityEvents'], 'operation': 'getNetworkWirelessClientConnectivityEvents', 'page': 1}
+2024-03-19 09:12:19       meraki:     INFO > GET https://api.meraki.com/api/v1/networks/L_657525545596101722/wireless/clients/k30421d/connectivityEvents
+2024-03-19 09:12:19       meraki:     INFO > wireless, getNetworkWirelessClientConnectivityEvents; page 1 - 200 OK
+2024-03-19 09:12:19       meraki:    DEBUG > {'tags': ['wireless', 'monitor', 'clients', 'connectivityEvents'], 'operation': 'getNetworkWirelessClientConnectivityEvents', 'page': 1}
+2024-03-19 09:12:19       meraki:     INFO > GET https://api.meraki.com/api/v1/networks/L_657525545596101722/wireless/clients/k316ae8/connectivityEvents
+2024-03-19 09:12:19       meraki:     INFO > wireless, getNetworkWirelessClientConnectivityEvents; page 1 - 200 OK
+2024-03-19 09:12:19       meraki:    DEBUG > {'tags': ['wireless', 'monitor', 'clients', 'connectivityEvents'], 'operation': 'getNetworkWirelessClientConnectivityEvents', 'page': 1}
+2024-03-19 09:12:19       meraki:     INFO > GET https://api.meraki.com/api/v1/networks/L_657525545596101722/wireless/clients/k31b703/connectivityEvents
+2024-03-19 09:12:20       meraki:     INFO > wireless, getNetworkWirelessClientConnectivityEvents; page 1 - 200 OK
+2024-03-19 09:12:20       meraki:    DEBUG > {'tags': ['wireless', 'monitor', 'clients', 'connectivityEvents'], 'operation': 'getNetworkWirelessClientConnectivityEvents', 'page': 1}
+2024-03-19 09:12:20       meraki:     INFO > GET https://api.meraki.com/api/v1/networks/L_657525545596101722/wireless/clients/k31c30b/connectivityEvents
+2024-03-19 09:12:20       meraki:     INFO > wireless, getNetworkWirelessClientConnectivityEvents; page 1 - 200 OK
+2024-03-19 09:12:20       meraki:    DEBUG > {'tags': ['wireless', 'monitor', 'clients', 'connectivityEvents'], 'operation': 'getNetworkWirelessClientConnectivityEvents', 'page': 1}
+2024-03-19 09:12:20       meraki:     INFO > GET https://api.meraki.com/api/v1/networks/L_657525545596101722/wireless/clients/k32fdec/connectivityEvents
+2024-03-19 09:12:20       meraki:     INFO > wireless, getNetworkWirelessClientConnectivityEvents; page 1 - 200 OK
+2024-03-19 09:12:20       meraki:    DEBUG > {'tags': ['wireless', 'monitor', 'clients', 'connectivityEvents'], 'operation': 'getNetworkWirelessClientConnectivityEvents', 'page': 1}
+2024-03-19 09:12:20       meraki:     INFO > GET https://api.meraki.com/api/v1/networks/L_657525545596101722/wireless/clients/k33d8a0/connectivityEvents
+2024-03-19 09:12:20       meraki:     INFO > wireless, getNetworkWirelessClientConnectivityEvents; page 1 - 200 OK
+2024-03-19 09:12:20       meraki:    DEBUG > {'tags': ['wireless', 'monitor', 'clients', 'connectivityEvents'], 'operation': 'getNetworkWirelessClientConnectivityEvents', 'page': 1}
+2024-03-19 09:12:20       meraki:     INFO > GET https://api.meraki.com/api/v1/networks/L_657525545596101722/wireless/clients/k37db5c/connectivityEvents
+2024-03-19 09:12:20       meraki:     INFO > wireless, getNetworkWirelessClientConnectivityEvents; page 1 - 200 OK
+2024-03-19 09:12:20       meraki:    DEBUG > {'tags': ['wireless', 'monitor', 'clients', 'connectivityEvents'], 'operation': 'getNetworkWirelessClientConnectivityEvents', 'page': 1}
+2024-03-19 09:12:20       meraki:     INFO > GET https://api.meraki.com/api/v1/networks/L_657525545596101722/wireless/clients/k38fc42/connectivityEvents
+2024-03-19 09:12:20       meraki:     INFO > wireless, getNetworkWirelessClientConnectivityEvents; page 1 - 200 OK
+2024-03-19 09:12:20       meraki:    DEBUG > {'tags': ['wireless', 'monitor', 'clients', 'connectivityEvents'], 'operation': 'getNetworkWirelessClientConnectivityEvents', 'page': 1}
+2024-03-19 09:12:20       meraki:     INFO > GET https://api.meraki.com/api/v1/networks/L_657525545596101722/wireless/clients/k399c6a/connectivityEvents
+2024-03-19 09:12:21       meraki:     INFO > wireless, getNetworkWirelessClientConnectivityEvents; page 1 - 200 OK
+2024-03-19 09:12:21       meraki:    DEBUG > {'tags': ['wireless', 'monitor', 'clients', 'connectivityEvents'], 'operation': 'getNetworkWirelessClientConnectivityEvents', 'page': 1}
+2024-03-19 09:12:21       meraki:     INFO > GET https://api.meraki.com/api/v1/networks/L_657525545596101722/wireless/clients/k399ef4/connectivityEvents
+2024-03-19 09:12:21       meraki:     INFO > wireless, getNetworkWirelessClientConnectivityEvents; page 1 - 200 OK
+2024-03-19 09:12:21       meraki:    DEBUG > {'tags': ['wireless', 'monitor', 'clients', 'connectivityEvents'], 'operation': 'getNetworkWirelessClientConnectivityEvents', 'page': 1}
+2024-03-19 09:12:21       meraki:     INFO > GET https://api.meraki.com/api/v1/networks/L_657525545596101722/wireless/clients/k3af84e/connectivityEvents
+2024-03-19 09:12:21       meraki:     INFO > wireless, getNetworkWirelessClientConnectivityEvents; page 1 - 200 OK
+2024-03-19 09:12:21       meraki:    DEBUG > {'tags': ['wireless', 'monitor', 'clients', 'connectivityEvents'], 'operation': 'getNetworkWirelessClientConnectivityEvents', 'page': 1}
+2024-03-19 09:12:21       meraki:     INFO > GET https://api.meraki.com/api/v1/networks/L_657525545596101722/wireless/clients/k06aabf/connectivityEvents
+2024-03-19 09:12:21       meraki:     INFO > wireless, getNetworkWirelessClientConnectivityEvents; page 1 - 200 OK
+2024-03-19 09:12:21       meraki:    DEBUG > {'tags': ['wireless', 'monitor', 'clients', 'connectivityEvents'], 'operation': 'getNetworkWirelessClientConnectivityEvents', 'page': 1}
+2024-03-19 09:12:21       meraki:     INFO > GET https://api.meraki.com/api/v1/networks/L_657525545596101722/wireless/clients/k06fcbe/connectivityEvents
+2024-03-19 09:12:21       meraki:     INFO > wireless, getNetworkWirelessClientConnectivityEvents; page 1 - 200 OK
+2024-03-19 09:12:21       meraki:    DEBUG > {'tags': ['wireless', 'monitor', 'clients', 'connectivityEvents'], 'operation': 'getNetworkWirelessClientConnectivityEvents', 'page': 1}
+2024-03-19 09:12:21       meraki:     INFO > GET https://api.meraki.com/api/v1/networks/L_657525545596101722/wireless/clients/k3c6dbd/connectivityEvents
+2024-03-19 09:12:22       meraki:     INFO > wireless, getNetworkWirelessClientConnectivityEvents; page 1 - 200 OK
+2024-03-19 09:12:22       meraki:    DEBUG > {'tags': ['wireless', 'monitor', 'clients', 'connectivityEvents'], 'operation': 'getNetworkWirelessClientConnectivityEvents', 'page': 1}
+2024-03-19 09:12:22       meraki:     INFO > GET https://api.meraki.com/api/v1/networks/L_657525545596101722/wireless/clients/k3cf2f6/connectivityEvents
+2024-03-19 09:12:22       meraki:     INFO > wireless, getNetworkWirelessClientConnectivityEvents; page 1 - 200 OK
+2024-03-19 09:12:22       meraki:    DEBUG > {'tags': ['wireless', 'monitor', 'clients', 'connectivityEvents'], 'operation': 'getNetworkWirelessClientConnectivityEvents', 'page': 1}
+2024-03-19 09:12:22       meraki:     INFO > GET https://api.meraki.com/api/v1/networks/L_657525545596101722/wireless/clients/k3d9db8/connectivityEvents
+2024-03-19 09:12:22       meraki:     INFO > wireless, getNetworkWirelessClientConnectivityEvents; page 1 - 200 OK
+2024-03-19 09:12:22       meraki:    DEBUG > {'tags': ['wireless', 'monitor', 'clients', 'connectivityEvents'], 'operation': 'getNetworkWirelessClientConnectivityEvents', 'page': 1}
+2024-03-19 09:12:22       meraki:     INFO > GET https://api.meraki.com/api/v1/networks/L_657525545596101722/wireless/clients/k3e09bd/connectivityEvents
+2024-03-19 09:12:22       meraki:     INFO > wireless, getNetworkWirelessClientConnectivityEvents; page 1 - 200 OK
+2024-03-19 09:12:22       meraki:    DEBUG > {'tags': ['wireless', 'monitor', 'clients', 'connectivityEvents'], 'operation': 'getNetworkWirelessClientConnectivityEvents', 'page': 1}
+2024-03-19 09:12:22       meraki:     INFO > GET https://api.meraki.com/api/v1/networks/L_657525545596101722/wireless/clients/k408306/connectivityEvents
+2024-03-19 09:12:22       meraki:     INFO > wireless, getNetworkWirelessClientConnectivityEvents; page 1 - 200 OK
+2024-03-19 09:12:22       meraki:    DEBUG > {'tags': ['wireless', 'monitor', 'clients', 'connectivityEvents'], 'operation': 'getNetworkWirelessClientConnectivityEvents', 'page': 1}
+2024-03-19 09:12:22       meraki:     INFO > GET https://api.meraki.com/api/v1/networks/L_657525545596101722/wireless/clients/k43ed9d/connectivityEvents
+2024-03-19 09:12:22       meraki:     INFO > wireless, getNetworkWirelessClientConnectivityEvents; page 1 - 200 OK
+2024-03-19 09:12:22       meraki:    DEBUG > {'tags': ['wireless', 'monitor', 'clients', 'connectivityEvents'], 'operation': 'getNetworkWirelessClientConnectivityEvents', 'page': 1}
+2024-03-19 09:12:22       meraki:     INFO > GET https://api.meraki.com/api/v1/networks/L_657525545596101722/wireless/clients/k471155/connectivityEvents
+2024-03-19 09:12:23       meraki:     INFO > wireless, getNetworkWirelessClientConnectivityEvents; page 1 - 200 OK
+2024-03-19 09:12:23       meraki:    DEBUG > {'tags': ['wireless', 'monitor', 'clients', 'connectivityEvents'], 'operation': 'getNetworkWirelessClientConnectivityEvents', 'page': 1}
+2024-03-19 09:12:23       meraki:     INFO > GET https://api.meraki.com/api/v1/networks/L_657525545596101722/wireless/clients/k49401f/connectivityEvents
+2024-03-19 09:12:23       meraki:     INFO > wireless, getNetworkWirelessClientConnectivityEvents; page 1 - 200 OK
+2024-03-19 09:12:23       meraki:    DEBUG > {'tags': ['wireless', 'monitor', 'clients', 'connectivityEvents'], 'operation': 'getNetworkWirelessClientConnectivityEvents', 'page': 1}
+2024-03-19 09:12:23       meraki:     INFO > GET https://api.meraki.com/api/v1/networks/L_657525545596101722/wireless/clients/k4a0452/connectivityEvents
+2024-03-19 09:12:23       meraki:     INFO > wireless, getNetworkWirelessClientConnectivityEvents; page 1 - 200 OK
+2024-03-19 09:12:23       meraki:    DEBUG > {'tags': ['wireless', 'monitor', 'clients', 'connectivityEvents'], 'operation': 'getNetworkWirelessClientConnectivityEvents', 'page': 1}
+2024-03-19 09:12:23       meraki:     INFO > GET https://api.meraki.com/api/v1/networks/L_657525545596101722/wireless/clients/k57c088/connectivityEvents
+2024-03-19 09:12:23       meraki:     INFO > wireless, getNetworkWirelessClientConnectivityEvents; page 1 - 200 OK
+2024-03-19 09:12:23       meraki:    DEBUG > {'tags': ['wireless', 'monitor', 'clients', 'connectivityEvents'], 'operation': 'getNetworkWirelessClientConnectivityEvents', 'page': 1}
+2024-03-19 09:12:23       meraki:     INFO > GET https://api.meraki.com/api/v1/networks/L_657525545596101722/wireless/clients/k57ec52/connectivityEvents
+2024-03-19 09:12:23       meraki:     INFO > wireless, getNetworkWirelessClientConnectivityEvents; page 1 - 200 OK
+2024-03-19 09:12:23       meraki:    DEBUG > {'tags': ['wireless', 'monitor', 'clients', 'connectivityEvents'], 'operation': 'getNetworkWirelessClientConnectivityEvents', 'page': 1}
+2024-03-19 09:12:23       meraki:     INFO > GET https://api.meraki.com/api/v1/networks/L_657525545596101722/wireless/clients/k589a73/connectivityEvents
+2024-03-19 09:12:23       meraki:     INFO > wireless, getNetworkWirelessClientConnectivityEvents; page 1 - 200 OK
+2024-03-19 09:12:23       meraki:    DEBUG > {'tags': ['wireless', 'monitor', 'clients', 'connectivityEvents'], 'operation': 'getNetworkWirelessClientConnectivityEvents', 'page': 1}
+2024-03-19 09:12:23       meraki:     INFO > GET https://api.meraki.com/api/v1/networks/L_657525545596101722/wireless/clients/k5cecaf/connectivityEvents
+2024-03-19 09:12:23       meraki:     INFO > wireless, getNetworkWirelessClientConnectivityEvents; page 1 - 200 OK
+2024-03-19 09:12:23       meraki:    DEBUG > {'tags': ['wireless', 'monitor', 'clients', 'connectivityEvents'], 'operation': 'getNetworkWirelessClientConnectivityEvents', 'page': 1}
+2024-03-19 09:12:23       meraki:     INFO > GET https://api.meraki.com/api/v1/networks/L_657525545596101722/wireless/clients/k5d65cc/connectivityEvents
+2024-03-19 09:12:24       meraki:     INFO > wireless, getNetworkWirelessClientConnectivityEvents; page 1 - 200 OK
+2024-03-19 09:12:24       meraki:    DEBUG > {'tags': ['wireless', 'monitor', 'clients', 'connectivityEvents'], 'operation': 'getNetworkWirelessClientConnectivityEvents', 'page': 1}
+2024-03-19 09:12:24       meraki:     INFO > GET https://api.meraki.com/api/v1/networks/L_657525545596101722/wireless/clients/k5fe7e1/connectivityEvents
+2024-03-19 09:12:24       meraki:     INFO > wireless, getNetworkWirelessClientConnectivityEvents; page 1 - 200 OK
+2024-03-19 09:12:24       meraki:    DEBUG > {'tags': ['wireless', 'monitor', 'clients', 'connectivityEvents'], 'operation': 'getNetworkWirelessClientConnectivityEvents', 'page': 1}
+2024-03-19 09:12:24       meraki:     INFO > GET https://api.meraki.com/api/v1/networks/L_657525545596101722/wireless/clients/k60f8ed/connectivityEvents
+2024-03-19 09:12:24       meraki:     INFO > wireless, getNetworkWirelessClientConnectivityEvents; page 1 - 200 OK
+2024-03-19 09:12:24       meraki:    DEBUG > {'tags': ['wireless', 'monitor', 'clients', 'connectivityEvents'], 'operation': 'getNetworkWirelessClientConnectivityEvents', 'page': 1}
+2024-03-19 09:12:24       meraki:     INFO > GET https://api.meraki.com/api/v1/networks/L_657525545596101722/wireless/clients/k61cd4f/connectivityEvents
+2024-03-19 09:12:24       meraki:     INFO > wireless, getNetworkWirelessClientConnectivityEvents; page 1 - 200 OK
+2024-03-19 09:12:24       meraki:    DEBUG > {'tags': ['wireless', 'monitor', 'clients', 'connectivityEvents'], 'operation': 'getNetworkWirelessClientConnectivityEvents', 'page': 1}
+2024-03-19 09:12:24       meraki:     INFO > GET https://api.meraki.com/api/v1/networks/L_657525545596101722/wireless/clients/k636aa2/connectivityEvents
+2024-03-19 09:12:24       meraki:     INFO > wireless, getNetworkWirelessClientConnectivityEvents; page 1 - 200 OK

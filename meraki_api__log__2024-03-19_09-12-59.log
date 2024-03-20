@@ -1,0 +1,106 @@
+2024-03-19 09:12:59       meraki:     INFO > Meraki dashboard API session initialized with these parameters: {'version': '1.43.0', 'api_key': '************************************6abf', 'base_url': 'https://api.meraki.com/api/v1', 'single_request_timeout': 60, 'certificate_path': '', 'requests_proxy': '', 'wait_on_rate_limit': True, 'nginx_429_retry_wait_time': 60, 'action_batch_retry_wait_time': 60, 'network_delete_retry_wait_time': 240, 'retry_4xx_error': False, 'retry_4xx_error_wait_time': 60, 'maximum_retries': 2, 'simulate': False, 'be_geo_id': None, 'caller': None, 'use_iterator_for_get_pages': False}
+2024-03-19 09:12:59       meraki:    DEBUG > {'tags': ['networks', 'monitor', 'clients'], 'operation': 'getNetworkClients', 'page': 1}
+2024-03-19 09:12:59       meraki:     INFO > GET https://api.meraki.com/api/v1/networks/L_657525545596101722/clients
+2024-03-19 09:12:59       meraki:     INFO > networks, getNetworkClients; page 1 - 200 OK
+2024-03-19 09:12:59       meraki:    DEBUG > {'tags': ['networks', 'monitor', 'clients'], 'operation': 'getNetworkClients', 'page': 2}
+2024-03-19 09:12:59       meraki:     INFO > GET https://api.meraki.com/api/v1/networks/L_657525545596101722/clients?perPage=10&startingAfter=k728ff6&timespan=3600
+2024-03-19 09:13:00       meraki:     INFO > networks, getNetworkClients; page 2 - 200 OK
+2024-03-19 09:13:00       meraki:    DEBUG > {'tags': ['networks', 'monitor', 'clients'], 'operation': 'getNetworkClients', 'page': 3}
+2024-03-19 09:13:00       meraki:     INFO > GET https://api.meraki.com/api/v1/networks/L_657525545596101722/clients?perPage=10&startingAfter=k841b2d&timespan=3600
+2024-03-19 09:13:00       meraki:     INFO > networks, getNetworkClients; page 3 - 200 OK
+2024-03-19 09:13:00       meraki:    DEBUG > {'tags': ['networks', 'monitor', 'clients'], 'operation': 'getNetworkClients', 'page': 4}
+2024-03-19 09:13:00       meraki:     INFO > GET https://api.meraki.com/api/v1/networks/L_657525545596101722/clients?perPage=10&startingAfter=k8fc150&timespan=3600
+2024-03-19 09:13:00       meraki:     INFO > networks, getNetworkClients; page 4 - 200 OK
+2024-03-19 09:13:00       meraki:    DEBUG > {'tags': ['networks', 'monitor', 'clients'], 'operation': 'getNetworkClients', 'page': 5}
+2024-03-19 09:13:00       meraki:     INFO > GET https://api.meraki.com/api/v1/networks/L_657525545596101722/clients?perPage=10&startingAfter=k9db672&timespan=3600
+2024-03-19 09:13:00       meraki:     INFO > networks, getNetworkClients; page 5 - 200 OK
+2024-03-19 09:13:00       meraki:    DEBUG > {'tags': ['networks', 'monitor', 'clients'], 'operation': 'getNetworkClients', 'page': 6}
+2024-03-19 09:13:00       meraki:     INFO > GET https://api.meraki.com/api/v1/networks/L_657525545596101722/clients?perPage=10&startingAfter=kb3d526&timespan=3600
+2024-03-19 09:13:00       meraki:     INFO > networks, getNetworkClients; page 6 - 200 OK
+2024-03-19 09:13:00       meraki:    DEBUG > {'tags': ['networks', 'monitor', 'clients'], 'operation': 'getNetworkClients', 'page': 7}
+2024-03-19 09:13:00       meraki:     INFO > GET https://api.meraki.com/api/v1/networks/L_657525545596101722/clients?perPage=10&startingAfter=kc36a94&timespan=3600
+2024-03-19 09:13:01       meraki:     INFO > networks, getNetworkClients; page 7 - 200 OK
+2024-03-19 09:13:01       meraki:    DEBUG > {'tags': ['networks', 'monitor', 'clients'], 'operation': 'getNetworkClients', 'page': 8}
+2024-03-19 09:13:01       meraki:     INFO > GET https://api.meraki.com/api/v1/networks/L_657525545596101722/clients?perPage=10&startingAfter=kd4df6c&timespan=3600
+2024-03-19 09:13:01       meraki:     INFO > networks, getNetworkClients; page 8 - 200 OK
+2024-03-19 09:13:01       meraki:    DEBUG > {'tags': ['networks', 'monitor', 'clients'], 'operation': 'getNetworkClients', 'page': 9}
+2024-03-19 09:13:01       meraki:     INFO > GET https://api.meraki.com/api/v1/networks/L_657525545596101722/clients?perPage=10&startingAfter=ke51934&timespan=3600
+2024-03-19 09:13:01       meraki:     INFO > networks, getNetworkClients; page 9 - 200 OK
+2024-03-19 09:13:01       meraki:    DEBUG > {'tags': ['networks', 'monitor', 'clients'], 'operation': 'getNetworkClients', 'page': 10}
+2024-03-19 09:13:01       meraki:     INFO > GET https://api.meraki.com/api/v1/networks/L_657525545596101722/clients?perPage=10&startingAfter=kf5edf3&timespan=3600
+2024-03-19 09:13:01       meraki:     INFO > networks, getNetworkClients; page 10 - 200 OK
+2024-03-19 09:13:01       meraki:    DEBUG > {'tags': ['networks', 'monitor', 'clients'], 'operation': 'getNetworkClients', 'page': 11}
+2024-03-19 09:13:01       meraki:     INFO > GET https://api.meraki.com/api/v1/networks/L_657525545596101722/clients?perPage=10&startingAfter=k23f8cb&timespan=3600
+2024-03-19 09:13:01       meraki:     INFO > networks, getNetworkClients; page 11 - 200 OK
+2024-03-19 09:13:01       meraki:    DEBUG > {'tags': ['networks', 'monitor', 'clients'], 'operation': 'getNetworkClients', 'page': 12}
+2024-03-19 09:13:01       meraki:     INFO > GET https://api.meraki.com/api/v1/networks/L_657525545596101722/clients?perPage=10&startingAfter=k2da243&timespan=3600
+2024-03-19 09:13:02       meraki:     INFO > networks, getNetworkClients; page 12 - 200 OK
+2024-03-19 09:13:02       meraki:    DEBUG > {'tags': ['networks', 'monitor', 'clients'], 'operation': 'getNetworkClients', 'page': 13}
+2024-03-19 09:13:02       meraki:     INFO > GET https://api.meraki.com/api/v1/networks/L_657525545596101722/clients?perPage=10&startingAfter=k399c6a&timespan=3600
+2024-03-19 09:13:02       meraki:     INFO > networks, getNetworkClients; page 13 - 200 OK
+2024-03-19 09:13:02       meraki:    DEBUG > {'tags': ['networks', 'monitor', 'clients'], 'operation': 'getNetworkClients', 'page': 14}
+2024-03-19 09:13:02       meraki:     INFO > GET https://api.meraki.com/api/v1/networks/L_657525545596101722/clients?perPage=10&startingAfter=k43ed9d&timespan=3600
+2024-03-19 09:13:02       meraki:     INFO > networks, getNetworkClients; page 14 - 200 OK
+2024-03-19 09:13:02       meraki:    DEBUG > {'tags': ['networks', 'monitor', 'clients'], 'operation': 'getNetworkClients', 'page': 15}
+2024-03-19 09:13:02       meraki:     INFO > GET https://api.meraki.com/api/v1/networks/L_657525545596101722/clients?perPage=10&startingAfter=k60f8ed&timespan=3600
+2024-03-19 09:13:02       meraki:     INFO > networks, getNetworkClients; page 15 - 200 OK
+2024-03-19 09:13:02       meraki:    DEBUG > {'tags': ['wireless', 'monitor', 'signalQualityHistory'], 'operation': 'getNetworkWirelessSignalQualityHistory', 'method': 'GET', 'url': '/networks/L_657525545596101722/wireless/signalQualityHistory', 'params': {'clientId': 'k69dbb5', 'resolution': 3600, 'timespan': 3600}}
+2024-03-19 09:13:02       meraki:     INFO > GET https://api.meraki.com/api/v1/networks/L_657525545596101722/wireless/signalQualityHistory
+2024-03-19 09:13:02       meraki:     INFO > wireless, getNetworkWirelessSignalQualityHistory - 200 OK
+2024-03-19 09:13:02       meraki:    DEBUG > {'tags': ['wireless', 'monitor', 'signalQualityHistory'], 'operation': 'getNetworkWirelessSignalQualityHistory', 'method': 'GET', 'url': '/networks/L_657525545596101722/wireless/signalQualityHistory', 'params': {'clientId': 'k6b5662', 'resolution': 3600, 'timespan': 3600}}
+2024-03-19 09:13:02       meraki:     INFO > GET https://api.meraki.com/api/v1/networks/L_657525545596101722/wireless/signalQualityHistory
+2024-03-19 09:13:03       meraki:     INFO > wireless, getNetworkWirelessSignalQualityHistory - 200 OK
+2024-03-19 09:13:03       meraki:    DEBUG > {'tags': ['wireless', 'monitor', 'signalQualityHistory'], 'operation': 'getNetworkWirelessSignalQualityHistory', 'method': 'GET', 'url': '/networks/L_657525545596101722/wireless/signalQualityHistory', 'params': {'clientId': 'k0bba6e', 'resolution': 3600, 'timespan': 3600}}
+2024-03-19 09:13:03       meraki:     INFO > GET https://api.meraki.com/api/v1/networks/L_657525545596101722/wireless/signalQualityHistory
+2024-03-19 09:13:03       meraki:     INFO > wireless, getNetworkWirelessSignalQualityHistory - 200 OK
+2024-03-19 09:13:03       meraki:    DEBUG > {'tags': ['wireless', 'monitor', 'signalQualityHistory'], 'operation': 'getNetworkWirelessSignalQualityHistory', 'method': 'GET', 'url': '/networks/L_657525545596101722/wireless/signalQualityHistory', 'params': {'clientId': 'k87d79f', 'resolution': 3600, 'timespan': 3600}}
+2024-03-19 09:13:03       meraki:     INFO > GET https://api.meraki.com/api/v1/networks/L_657525545596101722/wireless/signalQualityHistory
+2024-03-19 09:13:03       meraki:     INFO > wireless, getNetworkWirelessSignalQualityHistory - 200 OK
+2024-03-19 09:13:03       meraki:    DEBUG > {'tags': ['wireless', 'monitor', 'signalQualityHistory'], 'operation': 'getNetworkWirelessSignalQualityHistory', 'method': 'GET', 'url': '/networks/L_657525545596101722/wireless/signalQualityHistory', 'params': {'clientId': 'k90ca66', 'resolution': 3600, 'timespan': 3600}}
+2024-03-19 09:13:03       meraki:     INFO > GET https://api.meraki.com/api/v1/networks/L_657525545596101722/wireless/signalQualityHistory
+2024-03-19 09:13:03       meraki:     INFO > wireless, getNetworkWirelessSignalQualityHistory - 200 OK
+2024-03-19 09:13:03       meraki:    DEBUG > {'tags': ['wireless', 'monitor', 'signalQualityHistory'], 'operation': 'getNetworkWirelessSignalQualityHistory', 'method': 'GET', 'url': '/networks/L_657525545596101722/wireless/signalQualityHistory', 'params': {'clientId': 'k925156', 'resolution': 3600, 'timespan': 3600}}
+2024-03-19 09:13:03       meraki:     INFO > GET https://api.meraki.com/api/v1/networks/L_657525545596101722/wireless/signalQualityHistory
+2024-03-19 09:13:03       meraki:     INFO > wireless, getNetworkWirelessSignalQualityHistory - 200 OK
+2024-03-19 09:13:03       meraki:    DEBUG > {'tags': ['wireless', 'monitor', 'signalQualityHistory'], 'operation': 'getNetworkWirelessSignalQualityHistory', 'method': 'GET', 'url': '/networks/L_657525545596101722/wireless/signalQualityHistory', 'params': {'clientId': 'kb198dc', 'resolution': 3600, 'timespan': 3600}}
+2024-03-19 09:13:03       meraki:     INFO > GET https://api.meraki.com/api/v1/networks/L_657525545596101722/wireless/signalQualityHistory
+2024-03-19 09:13:03       meraki:     INFO > wireless, getNetworkWirelessSignalQualityHistory - 200 OK
+2024-03-19 09:13:03       meraki:    DEBUG > {'tags': ['wireless', 'monitor', 'signalQualityHistory'], 'operation': 'getNetworkWirelessSignalQualityHistory', 'method': 'GET', 'url': '/networks/L_657525545596101722/wireless/signalQualityHistory', 'params': {'clientId': 'kc36a94', 'resolution': 3600, 'timespan': 3600}}
+2024-03-19 09:13:03       meraki:     INFO > GET https://api.meraki.com/api/v1/networks/L_657525545596101722/wireless/signalQualityHistory
+2024-03-19 09:13:04       meraki:     INFO > wireless, getNetworkWirelessSignalQualityHistory - 200 OK
+2024-03-19 09:13:04       meraki:    DEBUG > {'tags': ['wireless', 'monitor', 'signalQualityHistory'], 'operation': 'getNetworkWirelessSignalQualityHistory', 'method': 'GET', 'url': '/networks/L_657525545596101722/wireless/signalQualityHistory', 'params': {'clientId': 'k14ee0e', 'resolution': 3600, 'timespan': 3600}}
+2024-03-19 09:13:04       meraki:     INFO > GET https://api.meraki.com/api/v1/networks/L_657525545596101722/wireless/signalQualityHistory
+2024-03-19 09:13:04       meraki:     INFO > wireless, getNetworkWirelessSignalQualityHistory - 200 OK
+2024-03-19 09:13:04       meraki:    DEBUG > {'tags': ['wireless', 'monitor', 'signalQualityHistory'], 'operation': 'getNetworkWirelessSignalQualityHistory', 'method': 'GET', 'url': '/networks/L_657525545596101722/wireless/signalQualityHistory', 'params': {'clientId': 'kdfcc5f', 'resolution': 3600, 'timespan': 3600}}
+2024-03-19 09:13:04       meraki:     INFO > GET https://api.meraki.com/api/v1/networks/L_657525545596101722/wireless/signalQualityHistory
+2024-03-19 09:13:04       meraki:     INFO > wireless, getNetworkWirelessSignalQualityHistory - 200 OK
+2024-03-19 09:13:04       meraki:    DEBUG > {'tags': ['wireless', 'monitor', 'signalQualityHistory'], 'operation': 'getNetworkWirelessSignalQualityHistory', 'method': 'GET', 'url': '/networks/L_657525545596101722/wireless/signalQualityHistory', 'params': {'clientId': 'ke8740c', 'resolution': 3600, 'timespan': 3600}}
+2024-03-19 09:13:04       meraki:     INFO > GET https://api.meraki.com/api/v1/networks/L_657525545596101722/wireless/signalQualityHistory
+2024-03-19 09:13:04       meraki:     INFO > wireless, getNetworkWirelessSignalQualityHistory - 200 OK
+2024-03-19 09:13:04       meraki:    DEBUG > {'tags': ['wireless', 'monitor', 'signalQualityHistory'], 'operation': 'getNetworkWirelessSignalQualityHistory', 'method': 'GET', 'url': '/networks/L_657525545596101722/wireless/signalQualityHistory', 'params': {'clientId': 'kedce33', 'resolution': 3600, 'timespan': 3600}}
+2024-03-19 09:13:04       meraki:     INFO > GET https://api.meraki.com/api/v1/networks/L_657525545596101722/wireless/signalQualityHistory
+2024-03-19 09:13:04       meraki:     INFO > wireless, getNetworkWirelessSignalQualityHistory - 200 OK
+2024-03-19 09:13:04       meraki:    DEBUG > {'tags': ['wireless', 'monitor', 'signalQualityHistory'], 'operation': 'getNetworkWirelessSignalQualityHistory', 'method': 'GET', 'url': '/networks/L_657525545596101722/wireless/signalQualityHistory', 'params': {'clientId': 'kfbc26f', 'resolution': 3600, 'timespan': 3600}}
+2024-03-19 09:13:04       meraki:     INFO > GET https://api.meraki.com/api/v1/networks/L_657525545596101722/wireless/signalQualityHistory
+2024-03-19 09:13:05       meraki:     INFO > wireless, getNetworkWirelessSignalQualityHistory - 200 OK
+2024-03-19 09:13:05       meraki:    DEBUG > {'tags': ['wireless', 'monitor', 'signalQualityHistory'], 'operation': 'getNetworkWirelessSignalQualityHistory', 'method': 'GET', 'url': '/networks/L_657525545596101722/wireless/signalQualityHistory', 'params': {'clientId': 'k1e4915', 'resolution': 3600, 'timespan': 3600}}
+2024-03-19 09:13:05       meraki:     INFO > GET https://api.meraki.com/api/v1/networks/L_657525545596101722/wireless/signalQualityHistory
+2024-03-19 09:13:05       meraki:     INFO > wireless, getNetworkWirelessSignalQualityHistory - 200 OK
+2024-03-19 09:13:05       meraki:    DEBUG > {'tags': ['wireless', 'monitor', 'signalQualityHistory'], 'operation': 'getNetworkWirelessSignalQualityHistory', 'method': 'GET', 'url': '/networks/L_657525545596101722/wireless/signalQualityHistory', 'params': {'clientId': 'k288d41', 'resolution': 3600, 'timespan': 3600}}
+2024-03-19 09:13:05       meraki:     INFO > GET https://api.meraki.com/api/v1/networks/L_657525545596101722/wireless/signalQualityHistory
+2024-03-19 09:13:05       meraki:     INFO > wireless, getNetworkWirelessSignalQualityHistory - 200 OK
+2024-03-19 09:13:05       meraki:    DEBUG > {'tags': ['wireless', 'monitor', 'signalQualityHistory'], 'operation': 'getNetworkWirelessSignalQualityHistory', 'method': 'GET', 'url': '/networks/L_657525545596101722/wireless/signalQualityHistory', 'params': {'clientId': 'k2da243', 'resolution': 3600, 'timespan': 3600}}
+2024-03-19 09:13:05       meraki:     INFO > GET https://api.meraki.com/api/v1/networks/L_657525545596101722/wireless/signalQualityHistory
+2024-03-19 09:13:06       meraki:     INFO > wireless, getNetworkWirelessSignalQualityHistory - 200 OK
+2024-03-19 09:13:06       meraki:    DEBUG > {'tags': ['wireless', 'monitor', 'signalQualityHistory'], 'operation': 'getNetworkWirelessSignalQualityHistory', 'method': 'GET', 'url': '/networks/L_657525545596101722/wireless/signalQualityHistory', 'params': {'clientId': 'k32fdec', 'resolution': 3600, 'timespan': 3600}}
+2024-03-19 09:13:06       meraki:     INFO > GET https://api.meraki.com/api/v1/networks/L_657525545596101722/wireless/signalQualityHistory
+2024-03-19 09:13:06       meraki:     INFO > wireless, getNetworkWirelessSignalQualityHistory - 200 OK
+2024-03-19 09:13:06       meraki:    DEBUG > {'tags': ['wireless', 'monitor', 'signalQualityHistory'], 'operation': 'getNetworkWirelessSignalQualityHistory', 'method': 'GET', 'url': '/networks/L_657525545596101722/wireless/signalQualityHistory', 'params': {'clientId': 'k06aabf', 'resolution': 3600, 'timespan': 3600}}
+2024-03-19 09:13:06       meraki:     INFO > GET https://api.meraki.com/api/v1/networks/L_657525545596101722/wireless/signalQualityHistory
+2024-03-19 09:13:06       meraki:     INFO > wireless, getNetworkWirelessSignalQualityHistory - 200 OK
+2024-03-19 09:13:06       meraki:    DEBUG > {'tags': ['wireless', 'monitor', 'signalQualityHistory'], 'operation': 'getNetworkWirelessSignalQualityHistory', 'method': 'GET', 'url': '/networks/L_657525545596101722/wireless/signalQualityHistory', 'params': {'clientId': 'k3cf2f6', 'resolution': 3600, 'timespan': 3600}}
+2024-03-19 09:13:06       meraki:     INFO > GET https://api.meraki.com/api/v1/networks/L_657525545596101722/wireless/signalQualityHistory
+2024-03-19 09:13:06       meraki:     INFO > wireless, getNetworkWirelessSignalQualityHistory - 200 OK
+2024-03-19 09:13:06       meraki:    DEBUG > {'tags': ['wireless', 'monitor', 'signalQualityHistory'], 'operation': 'getNetworkWirelessSignalQualityHistory', 'method': 'GET', 'url': '/networks/L_657525545596101722/wireless/signalQualityHistory', 'params': {'clientId': 'k5d65cc', 'resolution': 3600, 'timespan': 3600}}
+2024-03-19 09:13:06       meraki:     INFO > GET https://api.meraki.com/api/v1/networks/L_657525545596101722/wireless/signalQualityHistory
+2024-03-19 09:13:06       meraki:     INFO > wireless, getNetworkWirelessSignalQualityHistory - 200 OK
